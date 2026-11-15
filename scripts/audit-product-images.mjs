@@ -22,7 +22,7 @@ const allowedHosts = new Set([
   'paneco-sg-moonshine-production.s3.ap-southeast-1.amazonaws.com','static.livcheers.com',
   'static.maxi.rs','woodencork.com','www.1855thebottleshop.com','www.bestwaywholesale.co.uk',
   'www.continente.pt','www.costco.co.uk','www.drinksinc.com','www.eightpm.co.nz',
-  'www.finescottishhampers.com','www.instacart.com','www.paulsliquor.com.au','www.theginguild.com',
+  'www.finescottishhampers.com','www.instacart.com','www.paulsliquor.com.au','www.theginguild.com','www.theboozeoutlet.com','bevmo.com',
   'www.vlastni-etikety.cz',
   'images.squarespace-cdn.com','www.whiskybrother.com','assets.gqindia.com','www.bswliquor.com',
   'goodpour.com','vinosylicores.hn','target.scene7.com','everydaydirect.co.uk',
