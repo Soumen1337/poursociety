@@ -1,0 +1,28 @@
+name: Apply PourSociety catalogue update
+
+on:
+  push:
+    paths:
+      - 'poursociety-update.part03'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reassemble and apply source update
+        run: |
+          cat poursociety-update.part* | base64 --decode > /tmp/poursociety-update.tar.gz
+          mkdir -p /tmp/poursociety-update
+          tar -xzf /tmp/poursociety-update.tar.gz -C /tmp/poursociety-update
+          rsync -a /tmp/poursociety-update/poursociety-platform/ ./
+          rm -f poursociety-update.part*
+          rm -f .github/workflows/apply-catalog-update.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Expand PourSociety to 100 distinct drinks and refresh product images"
+          git push
