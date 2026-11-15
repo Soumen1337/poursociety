@@ -3,7 +3,7 @@ name: Expand PourSociety source package
 on:
   push:
     paths:
-      - 'poursociety-source.chunk07'
+      - 'poursociety-source.chunk09'
 
 permissions:
   contents: write
@@ -15,9 +15,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: Reassemble and extract source package
         run: |
-          cat poursociety-source.chunk* | base64 --decode > /tmp/poursociety-platform.tar.gz
+          cat poursociety-source.chunk* | base64 --decode > /tmp/poursociety-platform.tar.xz
           mkdir -p /tmp/poursociety-src
-          tar -xzf /tmp/poursociety-platform.tar.gz -C /tmp/poursociety-src
+          tar -xJf /tmp/poursociety-platform.tar.xz -C /tmp/poursociety-src
           rsync -a --exclude='.git/' /tmp/poursociety-src/poursociety-platform/ ./
           rm -f poursociety-source.chunk*
           rm -f poursociety-platform.zip.part*
