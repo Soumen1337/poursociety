@@ -10,7 +10,7 @@
       "origin": "Åhus, Sweden",
       "abv": "40%",
       "badge": "Zero Added Sugar",
-      "image": "https://assets.iceland.co.uk/i/iceland/absolut_original_swedish_vodka_70cl_71748_T1.jpg",
+      "image": "/images/absolut-vodka.jpg",
       "tastingNotes": "Continuous distillation using winter wheat and deep well water in Åhus. Rich, full-bodied grain character with dried fruit hints.",
       "prices": {
         "Delhi": 1950,
@@ -29,7 +29,7 @@
       "origin": "Bengaluru, India",
       "abv": "50%",
       "badge": "50% ABV Legend",
-      "image": "https://www.1855thebottleshop.com/cdn/shop/products/amrut-fusion-single-malt-whisky-700ml-bottle.jpg?crop=center&height=800&v=1755690201&width=800",
+      "image": "/images/amrut-fusion.webp",
       "tastingNotes": "Distilled from a fusion of Indian six-row barley and peated Scottish barley. Rich oak, dark chocolate fudge, and warm peat smoke.",
       "prices": {
         "Delhi": 4350,
@@ -48,7 +48,7 @@
       "origin": "Bengaluru, India",
       "abv": "46%",
       "badge": null,
-      "image": "https://images.squarespace-cdn.com/content/v1/5bf41e2c70e8026f5a08ac41/1583017596415-0H17J3KA865FIKD1O41C/amrut-peated.jpg",
+      "image": "/images/amrut-peated.webp",
       "tastingNotes": "A peated Indian single malt from Amrut Distilleries.",
       "prices": {}
     },
@@ -62,7 +62,7 @@
       "origin": "India",
       "abv": "42.8%",
       "badge": null,
-      "image": "https://www.paulsliquor.com.au/cdn/shop/files/1087284_1.webp?v=1712772084",
+      "image": "/images/antiquity-blue.webp",
       "tastingNotes": "An Indian blended whisky from the Antiquity range.",
       "prices": {}
     },
@@ -76,7 +76,7 @@
       "origin": "Islay, Scotland",
       "abv": "46%",
       "badge": null,
-      "image": "https://www.whiskybrother.com/cdn/shop/products/ardbeg-10-year-old.jpg?v=1611306566",
+      "image": "/images/ardbeg-10.webp",
       "tastingNotes": "An Islay single malt with a bold peat-smoke profile.",
       "prices": {}
     },
@@ -90,7 +90,7 @@
       "origin": "Puerto Rico / India",
       "abv": "42.8%",
       "badge": "Mojito Essential",
-      "image": "https://www.drinksinc.com/cdn/shop/files/bcc97411-02d1-4dd7-8d64-dc14a57b638c.jpg?v=1763386193&width=900",
+      "image": "/images/bacardi-carta-blanca.webp",
       "tastingNotes": "Aged in American white oak barrels and shaped through a secret blend of charcoal for floral, vanilla, and citrus cocktail perfection.",
       "prices": {
         "Delhi": 980,
@@ -109,7 +109,7 @@
       "origin": "Scotland",
       "abv": "40%",
       "badge": "Party Essential",
-      "image": "https://www.continente.pt/on/demandware.static/-/Sites-col-master-catalog/default/dw78d2f8d9/images/col/205/2050153-frente.jpg",
+      "image": "/images/ballantines-finest.jpg",
       "tastingNotes": "Refined, balanced blend with light heather honey, milk chocolate, red apple, and vanilla finish.",
       "prices": {
         "Delhi": 1750,
@@ -128,7 +128,7 @@
       "origin": "India",
       "abv": "4.7%",
       "badge": "Craft Wheat",
-      "image": "https://images.news18.com/static-bengali/uploads/2025/11/Bira-Beer-Image-2025-11-1a63df653c88ca8c4da1deac7e47aac3.jpg?height=620&impolicy=website&width=827",
+      "image": "/images/bira-white.avif",
       "tastingNotes": "Deliciously cloudy wheat ale with low bitterness, bright orange peel aroma, and a touch of Indian coriander.",
       "prices": {
         "Delhi": 160,
@@ -147,7 +147,7 @@
       "origin": "Scotland",
       "abv": "42.8%",
       "badge": null,
-      "image": "https://assets.gqindia.com/photos/5f5b6577de5e2aaea53dd957/master/w_1600%2Cc_limit/Black%2520Dog%2520Triple%2520Gold%2520Reserve.png",
+      "image": "/images/black-dog-triple-gold.webp",
       "tastingNotes": "A blended Scotch whisky in the Black Dog range.",
       "prices": {}
     },
@@ -161,7 +161,7 @@
       "origin": "India",
       "abv": "42.8%",
       "badge": null,
-      "image": "https://www.bswliquor.com/cdn/shop/products/blenders_pride_reserve_collection_800x.png?v=1678289275",
+      "image": "/images/blenders-pride-reserve.webp",
       "tastingNotes": "An Indian premium blended whisky from the Blenders Pride range.",
       "prices": {}
     },
@@ -175,7 +175,7 @@
       "origin": "India",
       "abv": "6.5%",
       "badge": "All-Time Favourite",
-      "image": "https://onlinealcohol.in/storage/2020/09/Budweiser-Magnum-330-ml.jpg",
+      "image": "/images/bud-magnum.webp",
       "tastingNotes": "Beechwood-aged strong super premium lager with roasted malt sweetness and crisp herbal hop balance.",
       "prices": {
         "Delhi": 250,
@@ -194,7 +194,7 @@
       "origin": "County Antrim, Ireland",
       "abv": "40%",
       "badge": null,
-      "image": "https://goodpour.com/cdn/shop/files/bushmills-black-bush-irish-whiskey-750ML_1080x.png?v=1760723279",
+      "image": "/images/bushmills-black-bush.webp",
       "tastingNotes": "An Irish whiskey blend with a prominent sherry-cask component.",
       "prices": {}
     },
@@ -208,7 +208,7 @@
       "origin": "Scotland",
       "abv": "40%",
       "badge": "Pour Lineup",
-      "image": "https://internetwines.com/cdn/shop/files/Chivas12_2023_4480x.jpg?v=1688952639",
+      "image": "/images/chivas-12.webp",
       "tastingNotes": "Cask-matured Speyside richness with wild herbs, heather honey, creamy butterscotch, and orchard apples.",
       "prices": {
         "Delhi": 2950,
@@ -227,7 +227,7 @@
       "origin": "Scotland",
       "abv": "40%",
       "badge": null,
-      "image": "https://vinosylicores.hn/cdn/shop/files/Copia_de_Website_VyL_1_1200x1200.png?v=1753112680",
+      "image": "/images/chivas-regal-18.webp",
       "tastingNotes": "An 18-year blended Scotch whisky with a rich, layered style.",
       "prices": {}
     },
@@ -241,7 +241,7 @@
       "origin": "Mexico / India",
       "abv": "4.5%",
       "badge": "Serve with Lime",
-      "image": "https://godrinks.com/cdn/shop/files/CoronaExtra35.5cl.png?v=1709626396",
+      "image": "/images/corona-extra.webp",
       "tastingNotes": "Crisp, sun-drenched pale lager with light honey-malt sweetness and refreshing hop character.",
       "prices": {
         "Delhi": 210,
@@ -260,7 +260,7 @@
       "origin": "Jammu, India",
       "abv": "42.8%",
       "badge": "Himalayan Malt",
-      "image": "https://www.paulsliquor.com.au/cdn/shop/files/GainChand-Single-malt.png?v=1717137872",
+      "image": "/images/gianchand.webp",
       "tastingNotes": "Crafted in Jammu with pristine Himalayan water. Delicate pineapple candy drop sweetness, vanilla backbone, and subtle barley oil.",
       "prices": {
         "Delhi": 4490,
@@ -279,7 +279,7 @@
       "origin": "Speyside, Scotland",
       "abv": "40%",
       "badge": "Valley of the Deer",
-      "image": "https://www.instacart.com/assets/domains/product-image/file/large_4595f1dd-866f-4876-b275-63dd3ec06f1e.jpeg",
+      "image": "/images/glenfiddich-12.jpg",
       "tastingNotes": "Matured in Oloroso sherry and bourbon oak casks for 12 years. Fresh pear, butterscotch, cream, and subtle oak.",
       "prices": {
         "Delhi": 4750,
@@ -298,7 +298,7 @@
       "origin": "Speyside, Scotland",
       "abv": "40%",
       "badge": null,
-      "image": "https://target.scene7.com/is/image/Target/GUEST_187d4608-d757-43fc-8bd5-7cbcd8b5e23a?hei=1000&wid=1000",
+      "image": "/images/glenfiddich-15.avif",
       "tastingNotes": "A 15-year Speyside single malt matured using the Solera process.",
       "prices": {}
     },
@@ -312,7 +312,7 @@
       "origin": "Speyside, Scotland",
       "abv": "40%",
       "badge": "Speyside Benchmark",
-      "image": "https://paneco-sg-moonshine-production.s3.ap-southeast-1.amazonaws.com/shgwi0eiuh7jaqb76x7tlw6ddvcq",
+      "image": "/images/glenlivet-12.jpg",
       "tastingNotes": "Smooth floral aroma with bright summer citrus, roasted hazelnut, and sweet vanilla custard.",
       "prices": {
         "Delhi": 4650,
@@ -331,7 +331,7 @@
       "origin": "Speyside, Scotland",
       "abv": "40%",
       "badge": null,
-      "image": "https://cdn11.bigcommerce.com/s-0ddlsmhg83/images/stencil/836x836/products/5648/5884/the-glenlivet-15-year-old-french-oak-speyside-single-malt__26001.1761996627.jpg?c=1",
+      "image": "/images/glenlivet-15-french-oak.webp",
       "tastingNotes": "A Speyside single malt matured with French oak cask influence.",
       "prices": {}
     },
@@ -345,7 +345,7 @@
       "origin": "Highlands, Scotland",
       "abv": "40%",
       "badge": null,
-      "image": "https://everydaydirect.co.uk/cdn/shop/files/glenmorainge70cl.jpg?v=1771747671",
+      "image": "/images/glenmorangie-original-10.webp",
       "tastingNotes": "A Highland single malt with a light, citrus-forward house style.",
       "prices": {}
     },
@@ -359,7 +359,7 @@
       "origin": "Highlands, Scotland",
       "abv": "46%",
       "badge": null,
-      "image": "https://camperdowncellars.com.au/cdn/shop/files/Glenmorangie-The-Quinta-Ruban-14YO-700ml-Bayfields-Liquor-Superstore_clipped_rev_1_1308x.png?v=1747034116",
+      "image": "/images/glenmorangie-quinta-ruban-14.webp",
       "tastingNotes": "A 14-year Highland single malt finished in ruby port casks.",
       "prices": {}
     },
@@ -373,7 +373,7 @@
       "origin": "Rajasthan, India",
       "abv": "46%",
       "badge": null,
-      "image": "https://s3.me-central-1.amazonaws.com/catalog.citydrinks.com/offers/3c881fa6-5ab8-434c-aeb0-ddc87bcc9d1e_thumb.webp",
+      "image": "/images/godawan-01.webp",
       "tastingNotes": "An Indian single malt from Rajasthan with a rich, rounded style.",
       "prices": {}
     },
@@ -387,7 +387,7 @@
       "origin": "Rajasthan, India",
       "abv": "46%",
       "badge": null,
-      "image": "https://cdn.store-assets.com/s/265524/i/67201257.png?width=480",
+      "image": "/images/godawan-02.webp",
       "tastingNotes": "An Indian single malt from Rajasthan with a fruit-and-spice-led style.",
       "prices": {}
     },
@@ -401,7 +401,7 @@
       "origin": "Goa, India",
       "abv": "40%",
       "badge": "India First Craft Gin",
-      "image": "https://www.paulsliquor.com.au/cdn/shop/products/greater-than-london-dry-gin.jpg?v=1669087955",
+      "image": "/images/greater-than.webp",
       "tastingNotes": "Distilled in a copper pot still in Goa with 9 botanicals including juniper, lemongrass, ginger, and chamomile. Clean citrus zing.",
       "prices": {
         "Delhi": 1300,
@@ -420,7 +420,7 @@
       "origin": "Cognac, France",
       "abv": "40%",
       "badge": "Ultra-Premium Vodka",
-      "image": "https://www.eightpm.co.nz/cdn/shop/products/grey-goose-premium-vodka-700ml-681944.jpg?v=1624199749",
+      "image": "/images/grey-goose.webp",
       "tastingNotes": "Distilled from soft winter wheat from Picardie and Gensac spring water. Creamy almond pastry notes and a silky, clean finish.",
       "prices": {
         "Delhi": 4100,
@@ -439,7 +439,7 @@
       "origin": "Girvan, Scotland",
       "abv": "41.4%",
       "badge": "Rose & Cucumber",
-      "image": "https://mrliquor.com.au/cdn/shop/products/Hendrick_s_Gin_700mL-1.jpg?v=1573617605",
+      "image": "/images/hendricks-gin.webp",
       "tastingNotes": "Unusual distillation in Bennett and Carter-Head stills infused with Bulgarian Rosa Damascena petals and refreshing cucumber.",
       "prices": {
         "Delhi": 4550,
@@ -458,7 +458,7 @@
       "origin": "Belgium",
       "abv": "4.9%",
       "badge": "Belgian Wheat",
-      "image": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-720201-0201629368-lCKDV670.jpg",
+      "image": "/images/hoegaarden.jpg",
       "tastingNotes": "Unfiltered Belgian white beer brewed with Curaçao orange peel and coriander seeds for a velvety, cloud-like citrus finish.",
       "prices": {
         "Delhi": 220,
@@ -477,7 +477,7 @@
       "origin": "Haryana, India",
       "abv": "46%",
       "badge": "Three Wood Award",
-      "image": "https://londonspiritscompetition.com/cont/competitionSubmissions/imagePot/LondonSpiritsCompetition-02102022032809000000-6204daa99e8e5.jpg",
+      "image": "/images/indri-trini.jpg",
       "tastingNotes": "Matured in Ex-Bourbon, Ex-Wine, and PX Sherry casks in Indri, Haryana. Notes of caramelized pineapple, vanilla, black tea, and sweet raisins.",
       "prices": {
         "Delhi": 3700,
@@ -496,7 +496,7 @@
       "origin": "Tennessee, USA",
       "abv": "40%",
       "badge": "Charcoal Mellowed",
-      "image": "https://www.bestwaywholesale.co.uk/img/products/1000/8/5099873089798.jpg",
+      "image": "/images/jack-daniels.jpg",
       "tastingNotes": "Mellowed drop by drop through 10 feet of sugar maple charcoal. Smooth caramel, toasted oak, banana, and smoky vanilla.",
       "prices": {
         "Delhi": 3100,
@@ -515,7 +515,7 @@
       "origin": "Uttar Pradesh, India",
       "abv": "42.8%",
       "badge": "Royal Oasis Gin",
-      "image": "https://m.media-amazon.com/images/I/61mI0%2BFo1kL._AC_SL1500_.jpg",
+      "image": "/images/jaisalmer-gin.jpg",
       "tastingNotes": "Infused with 11 botanicals including Darjeeling green tea leaves, vetiver, sweet orange peel, cubeb berries, and lemongrass.",
       "prices": {
         "Delhi": 3850,
@@ -534,7 +534,7 @@
       "origin": "Dublin, Ireland",
       "abv": "40%",
       "badge": "Triple Distilled",
-      "image": "https://www.vlastni-etikety.cz/design/labels/galerie/jameson_3.jpg",
+      "image": "/images/jameson.jpg",
       "tastingNotes": "Triple-distilled Irish pot still and fine grain whiskey. Light floral fragrance peppered with spicy wood and sweet sherry nuttiness.",
       "prices": {
         "Delhi": 2150,
@@ -553,7 +553,7 @@
       "origin": "Ireland",
       "abv": "40%",
       "badge": null,
-      "image": "https://cdn11.bigcommerce.com/s-4nzgid62dq/images/stencil/1280x1280/attribute_rule_images/3386_source_1711502447.png",
+      "image": "/images/jameson-black-barrel.webp",
       "tastingNotes": "A triple-distilled Irish whiskey finished in double-charred barrels; notes include butterscotch, fudge and vanilla.",
       "prices": {}
     },
@@ -567,7 +567,7 @@
       "origin": "Kentucky, USA",
       "abv": "40%",
       "badge": "World #1 Bourbon",
-      "image": "https://drinky.ch/cdn/shop/files/drinky_produkte_bilder_jim_beam_bourbon_whiskey_einzelflasche.jpg?v=1718983044",
+      "image": "/images/jim-beam-white.webp",
       "tastingNotes": "Aged 4 years in newly charred American white oak barrels. Oaky vanilla aroma with medium-bodied caramel and sweet corn warmth.",
       "prices": {
         "Delhi": 2200,
@@ -586,7 +586,7 @@
       "origin": "Scotland",
       "abv": "40%",
       "badge": "All-Time Favourite",
-      "image": "https://images.ctfassets.net/waruwpig3jxu/55BPOqOreCU44edDswoigY/153eae9e783bce07830134d161a349b3/black-750ml_producthero_fullfront_desktop.webp?q=80&w=2560",
+      "image": "/images/jw-black.webp",
       "tastingNotes": "Iconic 12-year aged blend of whiskies from all four corners of Scotland bursting with dark fruits, sweet vanilla, and signature peat smoke.",
       "prices": {
         "Delhi": 3350,
@@ -605,7 +605,7 @@
       "origin": "India",
       "abv": "5%",
       "badge": "Emperor of Good Times",
-      "image": "https://boozeexpress.com.au/cdn/shop/files/KingfisherUltraPremiumIndianLagerBeerBottles650mL.png?v=1772318650",
+      "image": "/images/kf-ultra.webp",
       "tastingNotes": "Brewed from the finest imported malts and hops for a golden appearance and exceptionally crisp, smooth taste.",
       "prices": {
         "Delhi": 225,
@@ -624,7 +624,7 @@
       "origin": "Islay, Scotland",
       "abv": "40%",
       "badge": null,
-      "image": "https://spiritory.com/_next/image?q=85&url=https%3A%2F%2Fdataspiritory.b-cdn.net%2Fassets_new%2Fimages%2Fskus%2Fwhisky%2Flaphroaig-10-years-old-206095.webp&w=3840",
+      "image": "/images/laphroaig-10.avif",
       "tastingNotes": "An Islay single malt known for its maritime character and pronounced peat.",
       "prices": {}
     },
@@ -638,7 +638,7 @@
       "origin": "Speyside, Scotland",
       "abv": "40%",
       "badge": "Collector Favourite",
-      "image": "https://brand-assets.edrington.com/transform/7020a501-9c82-47e3-b0df-03faaa2e40a2/MAC-2023-Double-Cask-12YO-Bottle--70cl-RGB-WEB-initial?io=transform%3Afit%2Cwidth%3A599%2Cheight%3A599&quality=100",
+      "image": "/images/macallan-12.avif",
       "tastingNotes": "Harmonious marriage of American and European Oloroso sherry-seasoned oak casks. Honeyed ginger, citrus marmalade, and sultanas.",
       "prices": {
         "Delhi": 8900,
@@ -657,7 +657,7 @@
       "origin": "Kentucky, USA",
       "abv": "45%",
       "badge": "Red Wax Seal",
-      "image": "https://woodencork.com/cdn/shop/products/00085246139431_C1N1_en-US0927_s01.jpg?v=1679527951",
+      "image": "/images/makers-mark.webp",
       "tastingNotes": "Crafted with soft red winter wheat instead of rye for a zero-bitterness palate bursting with butterscotch, woody oak, and vanilla.",
       "prices": {
         "Delhi": 4250,
@@ -676,7 +676,7 @@
       "origin": "Scotland",
       "abv": "40%",
       "badge": "100% Malt Whisky",
-      "image": "https://static.maxi.rs/medias/sys_master/products/h8b/he5/9243860762654.jpg?buildNumber=7314f1c628b31db1405f1b35130f0cc5c045b6859f4cb8a9cf45d1646bf42030",
+      "image": "/images/monkey-shoulder.avif",
       "tastingNotes": "Small-batch blend of prized Speyside single malts matured in first-fill ex-Bourbon barrels. Zesty orange, mellow vanilla, and spiced oak.",
       "prices": {
         "Delhi": 3950,
@@ -695,7 +695,7 @@
       "origin": "Ghaziabad, India",
       "abv": "42.8%",
       "badge": "Cult Classic",
-      "image": "https://globalspirits.co.nz/cdn/shop/products/0029157_old-monk-the-legend-rum-1-ltr_grande.jpg?v=1662800695",
+      "image": "/images/old-monk-legend.webp",
       "tastingNotes": "Iconic monk-head decanter filled with vatted dark Indian rum bursting with roasted coffee, dark caramel, vanilla, and jaggery.",
       "prices": {
         "Delhi": 1180,
@@ -714,7 +714,7 @@
       "origin": "Jalisco, Mexico",
       "abv": "40%",
       "badge": "100% De Agave",
-      "image": "https://cdn.shopify.com/s/files/1/0099/0045/8042/files/2025_bottle_silver-mjllDTu1sqOB5b.jpg?v=1770993338",
+      "image": "/images/patron-silver.webp",
       "tastingNotes": "Handcrafted from the finest 100% Weber Blue Agave in Jalisco. Smooth roasted agave, bright citrus, and light white pepper.",
       "prices": {
         "Delhi": 6200,
@@ -733,7 +733,7 @@
       "origin": "Goa, India",
       "abv": "46%",
       "badge": null,
-      "image": "https://www.theboozeoutlet.com/cdn/shop/products/medium-_750x750_cb9e9b26-1b92-46c2-9f86-7e98220b881d.png?v=1708399285",
+      "image": "/images/paul-john-brilliance.png",
       "tastingNotes": "An unpeated Indian single malt from Goa.",
       "prices": {}
     },
@@ -747,7 +747,7 @@
       "origin": "Goa, India",
       "abv": "46%",
       "badge": null,
-      "image": "https://d1q9atv66skeoi.cloudfront.net/image/961033245606/image_ret5pd6c995en0j5g42gd24h44/-S1920x1920-FWEBP",
+      "image": "/images/paul-john-edited.webp",
       "tastingNotes": "A Goa-made single malt with a subtle peat influence and a honeyed, cocoa-led profile.",
       "prices": {}
     },
@@ -761,7 +761,7 @@
       "origin": "Uttar Pradesh, India",
       "abv": "45%",
       "badge": null,
-      "image": "https://cdn.prod2.whisky.fr/media/lmdw/lmdw_large/58373_14_m73459___449be742416b5351.webp",
+      "image": "/images/rampur-asava.webp",
       "tastingNotes": "An Indian single malt matured with an Indian Cabernet Sauvignon cask finish.",
       "prices": {}
     },
@@ -775,7 +775,7 @@
       "origin": "Uttar Pradesh, India",
       "abv": "45%",
       "badge": "Luxury Reserve",
-      "image": "https://cdn11.bigcommerce.com/s-0ddlsmhg83/images/stencil/original/products/2352/2576/rampur-double-cask-indian-single-malt-whisky__00405.1752495277.1280.1280__33148.1755241711.jpg?c=1",
+      "image": "/images/rampur-dc.jpg",
       "tastingNotes": "Handcrafted in the Himalayan foothills using American Bourbon barrels and European Oak Sherry casks. Tropical fruit and spiced oak.",
       "prices": {
         "Delhi": 7210,
@@ -794,7 +794,7 @@
       "origin": "India",
       "abv": "42.8%",
       "badge": null,
-      "image": "https://www.bswliquor.com/cdn/shop/products/royal_stag_barrel_select_800x.png?v=1678290568",
+      "image": "/images/royal-stag-barrel-select.webp",
       "tastingNotes": "An Indian blended whisky with a barrel-led profile.",
       "prices": {}
     },
@@ -808,7 +808,7 @@
       "origin": "Goa, India",
       "abv": "42.8%",
       "badge": "3D Citrus Peel",
-      "image": "https://www.theginguild.com/wp-content/uploads/2020/11/stranger-and-sons-indian-spirited-gin.jpg",
+      "image": "/images/stranger-sons.jpg",
       "tastingNotes": "Bold botanical chorus of Gondhoraj limes, Nagpur oranges, nimble limes, black pepper, nutmeg, and coriander seed.",
       "prices": {
         "Delhi": 2050,
@@ -827,7 +827,7 @@
       "origin": "Isle of Skye, Scotland",
       "abv": "45.8%",
       "badge": "Maritime Peat",
-      "image": "https://www.finescottishhampers.com/image_resize/back/w1500/products/502/71PfYLlDUoL.ACSL1500.jpg",
+      "image": "/images/talisker-10.webp",
       "tastingNotes": "Made by the sea on the Isle of Skye. Powerful coastal sea-salt spray, cracked black pepper, and sweet orchard smoke.",
       "prices": {
         "Delhi": 4800,
@@ -846,7 +846,7 @@
       "origin": "India",
       "abv": "42.8%",
       "badge": null,
-      "image": "https://assets.gqindia.com/photos/61813a44191527f61d8447cd/1%3A1/w_1080%2Ch_1080%2Cc_limit/indian-whisky%20%281%29.jpg",
+      "image": "/images/woodburns-contemporary.webp",
       "tastingNotes": "A contemporary Indian whisky made for sipping or mixing.",
       "prices": {}
     }
@@ -860,7 +860,7 @@
       "volume": "750ML",
       "abv": null,
       "rating": "4.6",
-      "image": "https://cdn.metcash.media/image/upload/f_auto%2Cc_limit%2Cw_1500%2Cq_auto/igashop/images/6600933",
+      "image": "/images/jacobs-creek-chardonnay.jpg",
       "notes": "Zesty lemon, ripe melon & creamy oak finish",
       "prices": {
         "Delhi": 1500,
@@ -877,7 +877,7 @@
       "volume": "750ML",
       "abv": null,
       "rating": "4.9",
-      "image": "https://bevmo.com/cdn/shop/files/57f58993-4b15-4c44-bdcd-2878e8801ff8-padded.png?v=1765396868",
+      "image": "/images/moet-chandon-brut.webp",
       "notes": "Green apple, citrus blossom & toasted brioche",
       "prices": {
         "Delhi": 7800,
@@ -894,7 +894,7 @@
       "volume": "750ML",
       "abv": null,
       "rating": "4.7",
-      "image": "https://cf.shopee.sg/file/c45edb0c19bf70ea14b0d3a8a80d6183",
+      "image": "/images/sula-dindori-shiraz.jpg",
       "notes": "Blackberry, dark mocha & American oak spice",
       "prices": {
         "Delhi": 1350,
@@ -911,7 +911,7 @@
       "volume": "750ML",
       "abv": null,
       "rating": "4.8",
-      "image": "https://www.costco.co.uk/medias/sys_master/images/hb0/hee/312484953751582.jpg",
+      "image": "/images/whispering-angel.avif",
       "notes": "Dry summer berries, white peach & mineral finish",
       "prices": {
         "Delhi": 4100,
@@ -930,7 +930,7 @@
       "baseSpirit": "Indian Craft Gin & Salted Pomelo",
       "glassware": "Stemless Wine Goblet",
       "difficulty": "Mediterranean Spritz",
-      "image": "https://static.livcheers.com/static/icons/future_icons_images/67-olive-bar-kitchen-delhi-product-1-20260912.webp",
+      "image": "/images/albatross.webp",
       "color": "from-teal-500/20 to-amber-500/20",
       "ingredients": [
         "50ml Jaisalmer Indian Craft Gin",
@@ -948,7 +948,7 @@
       "baseSpirit": "Bourbon & Wood Apple (Bael)",
       "glassware": "Old Fashioned Tumbler",
       "difficulty": "Indigenous Forage",
-      "image": "https://static.livcheers.com/static/icons/future_icons_images/51-cnd-speakeasy-product-2-20260912.webp",
+      "image": "/images/bilvananda.webp",
       "color": "from-orange-500/20 to-amber-800/20",
       "ingredients": [
         "60ml Maker's Mark or Jim Beam Bourbon",
@@ -966,7 +966,7 @@
       "baseSpirit": "Sous-Vide Vetiver Gin & Dry Vermouth",
       "glassware": "Nick & Nora Glass",
       "difficulty": "Advanced Craft",
-      "image": "https://static.livcheers.com/static/icons/future_icons_images/52-comorin-gurgaon-product-1-20260912.webp",
+      "image": "/images/common-thread.webp",
       "color": "from-amber-500/20 to-emerald-600/20",
       "ingredients": [
         "60ml Vetiver-root infused Greater Than or Stranger & Sons Gin",
@@ -984,7 +984,7 @@
       "baseSpirit": "Indian Single Malt & Smoked Pineapple",
       "glassware": "Tall Collins Glass",
       "difficulty": "Signature Highball",
-      "image": "https://static.livcheers.com/static/icons/future_icons_images/59-aabbcc-product-1-20260912.webp",
+      "image": "/images/hemus-highball.webp",
       "color": "from-yellow-500/20 to-amber-700/20",
       "ingredients": [
         "50ml Indri Trini Single Malt Whisky",
@@ -1002,7 +1002,7 @@
       "baseSpirit": "Blended Scotch & Elderflower",
       "glassware": "Rocks Glass over Clear Ice Sphere",
       "difficulty": "Modern Classic",
-      "image": "https://static.livcheers.com/static/icons/future_icons_images/68-ophelia-delhi-product-1-20260912.webp",
+      "image": "/images/highland-botanist.webp",
       "color": "from-emerald-500/20 to-gold-500/20",
       "ingredients": [
         "50ml Chivas Regal 12 YO or Johnnie Walker Black Label",
@@ -1020,7 +1020,7 @@
       "baseSpirit": "Clarified Tomato Vodka & Herb Oil",
       "glassware": "Chilled Coupe",
       "difficulty": "Molecular Clarified",
-      "image": "https://static.livcheers.com/static/icons/future_icons_images/70-red-vasant-vihar-product-1-20260912.webp",
+      "image": "/images/mary-me-martini.webp",
       "color": "from-rose-500/20 to-amber-500/20",
       "ingredients": [
         "60ml Grey Goose Vodka rested with sun-dried cherry tomatoes",

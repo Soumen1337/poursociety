@@ -1,8 +1,8 @@
 {
-  "audited_at": "2026-11-15T21:22:50.952Z",
-  "live_products": 63,
-  "downloaded": 58,
-  "failed": 5,
+  "audited_at": "2026-11-15T21:26:12.864Z",
+  "live_products": 60,
+  "downloaded": 60,
+  "failed": 0,
   "results": [
     {
       "id": "absolut-vodka",
@@ -390,17 +390,6 @@
       "ok": true
     },
     {
-      "id": "jacobs-creek-chard",
-      "name": "Jacob's Creek Classic Chardonnay",
-      "status": "downloaded_and_validated",
-      "http_status": 200,
-      "content_type": "image/jpeg",
-      "bytes": 51759,
-      "source_url": "https://cdn.metcash.media/image/upload/f_auto%2Cc_limit%2Cw_1500%2Cq_auto/igashop/images/6600933",
-      "local_url": "/images/jacobs-creek-chard.jpg",
-      "ok": true
-    },
-    {
       "id": "jacobs-creek-chardonnay",
       "name": "Jacob's Creek Classic Chardonnay",
       "status": "downloaded_and_validated",
@@ -436,10 +425,13 @@
     {
       "id": "jameson-black-barrel",
       "name": "Jameson Black Barrel Irish Whiskey",
-      "status": "image_too_large",
-      "bytes": 8674762,
-      "source_url": "https://images.salsify.com/image/upload/s--xzRiZbMZ--/atqok8wlchvhos2xjczo.png",
-      "ok": false
+      "status": "downloaded_and_validated",
+      "http_status": 200,
+      "content_type": "image/webp",
+      "bytes": 75978,
+      "source_url": "https://cdn11.bigcommerce.com/s-4nzgid62dq/images/stencil/1280x1280/attribute_rule_images/3386_source_1711502447.png",
+      "local_url": "/images/jameson-black-barrel.webp",
+      "ok": true
     },
     {
       "id": "jim-beam-white",
@@ -521,20 +513,13 @@
     {
       "id": "moet-chandon-brut",
       "name": "Moët & Chandon Impérial Brut",
-      "status": "source_unavailable_or_not_image",
-      "http_status": 404,
-      "content_type": "application/json",
-      "source_url": "https://digitalcontent.api.tesco.com/v2/media/ghs/af98ad9a-31fa-4afd-ac96-4be5f2b1142d/938ff3c3-dbe3-4d0d-86b6-de9fa851fdcf_1910783801.jpeg",
-      "ok": false
-    },
-    {
-      "id": "moet-imperial",
-      "name": "Moët & Chandon Impérial Brut Champagne",
-      "status": "source_unavailable_or_not_image",
-      "http_status": 404,
-      "content_type": "application/json",
-      "source_url": "https://digitalcontent.api.tesco.com/v2/media/ghs/af98ad9a-31fa-4afd-ac96-4be5f2b1142d/938ff3c3-dbe3-4d0d-86b6-de9fa851fdcf_1910783801.jpeg",
-      "ok": false
+      "status": "downloaded_and_validated",
+      "http_status": 200,
+      "content_type": "image/webp",
+      "bytes": 38090,
+      "source_url": "https://puninwine.com/cdn/shop/files/M145.png?v=1758650910&width=1000",
+      "local_url": "/images/moet-chandon-brut.webp",
+      "ok": true
     },
     {
       "id": "monkey-shoulder",
@@ -572,9 +557,13 @@
     {
       "id": "paul-john-brilliance",
       "name": "Paul John Brilliance Single Malt",
-      "status": "source_host_not_approved",
-      "source_url": "https://www.theboozeoutlet.com/cdn/shop/products/medium-_750x750_cb9e9b26-1b92-46c2-9f86-7e98220b881d.png?v=1708399285",
-      "ok": false
+      "status": "downloaded_and_validated",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 284514,
+      "source_url": "https://www.pauljohnwhisky.com/assets/images/brands/bottle/brilliance-flagship.png",
+      "local_url": "/images/paul-john-brilliance.png",
+      "ok": true
     },
     {
       "id": "paul-john-edited",
@@ -612,11 +601,13 @@
     {
       "id": "royal-stag-barrel-select",
       "name": "Royal Stag Barrel Select",
-      "status": "source_unavailable_or_not_image",
-      "http_status": 403,
-      "content_type": "text/html",
-      "source_url": "https://www.spencers.in/_next/image?q=75&url=https%3A%2F%2Fblaze-assets.webcdn.store%2Fcdn-cgi%2Fimage%2Fformat%3Dauto%2Cquality%3Dauto%2Fimage_20260203232405%2F1255357.png&w=1920",
-      "ok": false
+      "status": "downloaded_and_validated",
+      "http_status": 200,
+      "content_type": "image/webp",
+      "bytes": 28282,
+      "source_url": "https://www.bswliquor.com/cdn/shop/products/royal_stag_barrel_select_800x.png?v=1678290568",
+      "local_url": "/images/royal-stag-barrel-select.webp",
+      "ok": true
     },
     {
       "id": "stranger-sons",
@@ -627,17 +618,6 @@
       "bytes": 50090,
       "source_url": "https://www.theginguild.com/wp-content/uploads/2020/11/stranger-and-sons-indian-spirited-gin.jpg",
       "local_url": "/images/stranger-sons.jpg",
-      "ok": true
-    },
-    {
-      "id": "sula-dindori",
-      "name": "Sula Dindori Reserve Shiraz",
-      "status": "downloaded_and_validated",
-      "http_status": 200,
-      "content_type": "image/jpeg",
-      "bytes": 62945,
-      "source_url": "https://cf.shopee.sg/file/c45edb0c19bf70ea14b0d3a8a80d6183",
-      "local_url": "/images/sula-dindori.jpg",
       "ok": true
     },
     {
