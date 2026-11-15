@@ -50,8 +50,9 @@ Deno.serve(async (req: Request) => {
 
   const pending = (products || []).filter(p => {
     try {
-      const u = new URL(p.image_url);
-      const sourceUrl = p.metadata?.source_image_url || p.image_url;\n      const u = new URL(sourceUrl);\n      return u.protocol === 'https:' && allowedHosts.has(u.hostname);
+      const sourceUrl = p.metadata?.source_image_url || p.image_url;
+      const u = new URL(sourceUrl);
+      return u.protocol === 'https:' && allowedHosts.has(u.hostname);
     } catch { return false; }
   });
   const skipped = (products || []).filter(p => !pending.some(x => x.id === p.id)).map(p => ({ id: p.id, name: p.name, status: 'skipped_existing_or_unapproved_host' }));
