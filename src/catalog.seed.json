@@ -10,7 +10,7 @@
       "origin": "Haryana, India",
       "abv": "46%",
       "badge": "Three Wood Award",
-      "image": "https://londonspiritscompetition.com/cont/competitionSubmissions/imagePot/LondonSpiritsCompetition-02102022032809000000-6204daa99e8e5.jpg",
+      "image": "/images/indri-trini.jpg",
       "tastingNotes": "Matured in Ex-Bourbon, Ex-Wine, and PX Sherry casks in Indri, Haryana. Notes of caramelized pineapple, vanilla, black tea, and sweet raisins.",
       "prices": {
         "Gurgaon": 3100,
@@ -29,7 +29,7 @@
       "origin": "Bengaluru, India",
       "abv": "50%",
       "badge": "50% ABV Legend",
-      "image": "https://www.1855thebottleshop.com/cdn/shop/products/amrut-fusion-single-malt-whisky-700ml-bottle.jpg?crop=center&height=800&v=1755690201&width=800",
+      "image": "/images/amrut-fusion.webp",
       "tastingNotes": "Distilled from a fusion of Indian six-row barley and peated Scottish barley. Rich oak, dark chocolate fudge, and warm peat smoke.",
       "prices": {
         "Gurgaon": 3800,
@@ -48,7 +48,7 @@
       "origin": "Uttar Pradesh, India",
       "abv": "45%",
       "badge": "Luxury Reserve",
-      "image": "https://cdn11.bigcommerce.com/s-0ddlsmhg83/images/stencil/original/products/2352/2576/rampur-double-cask-indian-single-malt-whisky__00405.1752495277.1280.1280__33148.1755241711.jpg?c=1",
+      "image": "/images/rampur-dc.jpg",
       "tastingNotes": "Handcrafted in the Himalayan foothills using American Bourbon barrels and European Oak Sherry casks. Tropical fruit and spiced oak.",
       "prices": {
         "Gurgaon": 6500,
@@ -67,7 +67,7 @@
       "origin": "Jammu, India",
       "abv": "42.8%",
       "badge": "Himalayan Malt",
-      "image": "https://www.paulsliquor.com.au/cdn/shop/files/GainChand-Single-malt.png?v=1717137872",
+      "image": "/images/gianchand.webp",
       "tastingNotes": "Crafted in Jammu with pristine Himalayan water. Delicate pineapple candy drop sweetness, vanilla backbone, and subtle barley oil.",
       "prices": {
         "Gurgaon": 3600,
@@ -86,7 +86,7 @@
       "origin": "Speyside, Scotland",
       "abv": "40%",
       "badge": "Valley of the Deer",
-      "image": "https://www.instacart.com/assets/domains/product-image/file/large_4595f1dd-866f-4876-b275-63dd3ec06f1e.jpeg",
+      "image": "/images/glenfiddich-12.jpg",
       "tastingNotes": "Matured in Oloroso sherry and bourbon oak casks for 12 years. Fresh pear, butterscotch, cream, and subtle oak.",
       "prices": {
         "Gurgaon": 3800,
@@ -105,7 +105,7 @@
       "origin": "Speyside, Scotland",
       "abv": "40%",
       "badge": "Speyside Benchmark",
-      "image": "https://paneco-sg-moonshine-production.s3.ap-southeast-1.amazonaws.com/shgwi0eiuh7jaqb76x7tlw6ddvcq",
+      "image": "/images/glenlivet-12.jpg",
       "tastingNotes": "Smooth floral aroma with bright summer citrus, roasted hazelnut, and sweet vanilla custard.",
       "prices": {
         "Gurgaon": 3700,
@@ -124,7 +124,7 @@
       "origin": "Speyside, Scotland",
       "abv": "40%",
       "badge": "Collector Favourite",
-      "image": "https://brand-assets.edrington.com/transform/7020a501-9c82-47e3-b0df-03faaa2e40a2/MAC-2023-Double-Cask-12YO-Bottle--70cl-RGB-WEB-initial?io=transform%3Afit%2Cwidth%3A599%2Cheight%3A599&quality=100",
+      "image": "/images/macallan-12.avif",
       "tastingNotes": "Harmonious marriage of American and European Oloroso sherry-seasoned oak casks. Honeyed ginger, citrus marmalade, and sultanas.",
       "prices": {
         "Gurgaon": 7200,
@@ -143,7 +143,7 @@
       "origin": "Isle of Skye, Scotland",
       "abv": "45.8%",
       "badge": "Maritime Peat",
-      "image": "https://www.finescottishhampers.com/image_resize/back/w1500/products/502/71PfYLlDUoL.ACSL1500.jpg",
+      "image": "/images/talisker-10.webp",
       "tastingNotes": "Made by the sea on the Isle of Skye. Powerful coastal sea-salt spray, cracked black pepper, and sweet orchard smoke.",
       "prices": {
         "Gurgaon": 3900,
@@ -162,7 +162,7 @@
       "origin": "Scotland",
       "abv": "40%",
       "badge": "All-Time Favourite",
-      "image": "https://images.ctfassets.net/waruwpig3jxu/55BPOqOreCU44edDswoigY/153eae9e783bce07830134d161a349b3/black-750ml_producthero_fullfront_desktop.webp?q=80&w=2560",
+      "image": "/images/jw-black.webp",
       "tastingNotes": "Iconic 12-year aged blend of whiskies from all four corners of Scotland bursting with dark fruits, sweet vanilla, and signature peat smoke.",
       "prices": {
         "Gurgaon": 2800,
@@ -181,7 +181,7 @@
       "origin": "Scotland",
       "abv": "40%",
       "badge": "100% Malt Whisky",
-      "image": "https://static.maxi.rs/medias/sys_master/products/h8b/he5/9243860762654.jpg?buildNumber=7314f1c628b31db1405f1b35130f0cc5c045b6859f4cb8a9cf45d1646bf42030",
+      "image": "/images/monkey-shoulder.avif",
       "tastingNotes": "Small-batch blend of prized Speyside single malts matured in first-fill ex-Bourbon barrels. Zesty orange, mellow vanilla, and spiced oak.",
       "prices": {
         "Gurgaon": 3000,
@@ -200,7 +200,7 @@
       "origin": "Scotland",
       "abv": "40%",
       "badge": "Pour Lineup",
-      "image": "https://internetwines.com/cdn/shop/files/Chivas12_2023_4480x.jpg?v=1688952639",
+      "image": "/images/chivas-12.webp",
       "tastingNotes": "Cask-matured Speyside richness with wild herbs, heather honey, creamy butterscotch, and orchard apples.",
       "prices": {
         "Gurgaon": 2600,
@@ -219,7 +219,7 @@
       "origin": "Scotland",
       "abv": "40%",
       "badge": "Party Essential",
-      "image": "https://www.continente.pt/on/demandware.static/-/Sites-col-master-catalog/default/dw78d2f8d9/images/col/205/2050153-frente.jpg",
+      "image": "/images/ballantines-finest.jpg",
       "tastingNotes": "Refined, balanced blend with light heather honey, milk chocolate, red apple, and vanilla finish.",
       "prices": {
         "Gurgaon": 1350,
@@ -238,7 +238,7 @@
       "origin": "Dublin, Ireland",
       "abv": "40%",
       "badge": "Triple Distilled",
-      "image": "https://www.vlastni-etikety.cz/design/labels/galerie/jameson_3.jpg",
+      "image": "/images/jameson.jpg",
       "tastingNotes": "Triple-distilled Irish pot still and fine grain whiskey. Light floral fragrance peppered with spicy wood and sweet sherry nuttiness.",
       "prices": {
         "Gurgaon": 1900,
@@ -257,7 +257,7 @@
       "origin": "Tennessee, USA",
       "abv": "40%",
       "badge": "Charcoal Mellowed",
-      "image": "https://www.bestwaywholesale.co.uk/img/products/1000/8/5099873089798.jpg",
+      "image": "/images/jack-daniels.jpg",
       "tastingNotes": "Mellowed drop by drop through 10 feet of sugar maple charcoal. Smooth caramel, toasted oak, banana, and smoky vanilla.",
       "prices": {
         "Gurgaon": 2500,
@@ -276,7 +276,7 @@
       "origin": "Kentucky, USA",
       "abv": "40%",
       "badge": "World #1 Bourbon",
-      "image": "https://drinky.ch/cdn/shop/files/drinky_produkte_bilder_jim_beam_bourbon_whiskey_einzelflasche.jpg?v=1718983044",
+      "image": "/images/jim-beam-white.webp",
       "tastingNotes": "Aged 4 years in newly charred American white oak barrels. Oaky vanilla aroma with medium-bodied caramel and sweet corn warmth.",
       "prices": {
         "Gurgaon": 1750,
@@ -295,7 +295,7 @@
       "origin": "Kentucky, USA",
       "abv": "45%",
       "badge": "Red Wax Seal",
-      "image": "https://woodencork.com/cdn/shop/products/00085246139431_C1N1_en-US0927_s01.jpg?v=1679527951",
+      "image": "/images/makers-mark.webp",
       "tastingNotes": "Crafted with soft red winter wheat instead of rye for a zero-bitterness palate bursting with butterscotch, woody oak, and vanilla.",
       "prices": {
         "Gurgaon": 3400,
@@ -314,7 +314,7 @@
       "origin": "Goa, India",
       "abv": "40%",
       "badge": "India First Craft Gin",
-      "image": "https://www.paulsliquor.com.au/cdn/shop/products/greater-than-london-dry-gin.jpg?v=1669087955",
+      "image": "/images/greater-than.webp",
       "tastingNotes": "Distilled in a copper pot still in Goa with 9 botanicals including juniper, lemongrass, ginger, and chamomile. Clean citrus zing.",
       "prices": {
         "Gurgaon": 1050,
@@ -333,7 +333,7 @@
       "origin": "Goa, India",
       "abv": "42.8%",
       "badge": "3D Citrus Peel",
-      "image": "https://www.theginguild.com/wp-content/uploads/2020/11/stranger-and-sons-indian-spirited-gin.jpg",
+      "image": "/images/stranger-sons.jpg",
       "tastingNotes": "Bold botanical chorus of Gondhoraj limes, Nagpur oranges, nimble limes, black pepper, nutmeg, and coriander seed.",
       "prices": {
         "Gurgaon": 1650,
@@ -352,7 +352,7 @@
       "origin": "Uttar Pradesh, India",
       "abv": "42.8%",
       "badge": "Royal Oasis Gin",
-      "image": "https://m.media-amazon.com/images/I/61mI0%2BFo1kL._AC_SL1500_.jpg",
+      "image": "/images/jaisalmer-gin.jpg",
       "tastingNotes": "Infused with 11 botanicals including Darjeeling green tea leaves, vetiver, sweet orange peel, cubeb berries, and lemongrass.",
       "prices": {
         "Gurgaon": 3100,
@@ -371,7 +371,7 @@
       "origin": "Girvan, Scotland",
       "abv": "41.4%",
       "badge": "Rose & Cucumber",
-      "image": "https://mrliquor.com.au/cdn/shop/products/Hendrick_s_Gin_700mL-1.jpg?v=1573617605",
+      "image": "/images/hendricks-gin.webp",
       "tastingNotes": "Unusual distillation in Bennett and Carter-Head stills infused with Bulgarian Rosa Damascena petals and refreshing cucumber.",
       "prices": {
         "Gurgaon": 3600,
@@ -390,7 +390,7 @@
       "origin": "Mexico / India",
       "abv": "4.5%",
       "badge": "Serve with Lime",
-      "image": "https://godrinks.com/cdn/shop/files/CoronaExtra35.5cl.png?v=1709626396",
+      "image": "/images/corona-extra.webp",
       "tastingNotes": "Crisp, sun-drenched pale lager with light honey-malt sweetness and refreshing hop character.",
       "prices": {
         "Gurgaon": 160,
@@ -409,7 +409,7 @@
       "origin": "Belgium",
       "abv": "4.9%",
       "badge": "Belgian Wheat",
-      "image": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-720201-0201629368-lCKDV670.jpg",
+      "image": "/images/hoegaarden.jpg",
       "tastingNotes": "Unfiltered Belgian white beer brewed with Curaçao orange peel and coriander seeds for a velvety, cloud-like citrus finish.",
       "prices": {
         "Gurgaon": 170,
@@ -428,7 +428,7 @@
       "origin": "India",
       "abv": "4.7%",
       "badge": "Craft Wheat",
-      "image": "https://images.news18.com/static-bengali/uploads/2025/11/Bira-Beer-Image-2025-11-1a63df653c88ca8c4da1deac7e47aac3.jpg?height=620&impolicy=website&width=827",
+      "image": "/images/bira-white.avif",
       "tastingNotes": "Deliciously cloudy wheat ale with low bitterness, bright orange peel aroma, and a touch of Indian coriander.",
       "prices": {
         "Gurgaon": 140,
@@ -447,7 +447,7 @@
       "origin": "India",
       "abv": "6.5%",
       "badge": "All-Time Favourite",
-      "image": "https://onlinealcohol.in/storage/2020/09/Budweiser-Magnum-330-ml.jpg",
+      "image": "/images/bud-magnum.webp",
       "tastingNotes": "Beechwood-aged strong super premium lager with roasted malt sweetness and crisp herbal hop balance.",
       "prices": {
         "Gurgaon": 210,
@@ -466,7 +466,7 @@
       "origin": "India",
       "abv": "5%",
       "badge": "Emperor of Good Times",
-      "image": "https://boozeexpress.com.au/cdn/shop/files/KingfisherUltraPremiumIndianLagerBeerBottles650mL.png?v=1772318650",
+      "image": "/images/kf-ultra.webp",
       "tastingNotes": "Brewed from the finest imported malts and hops for a golden appearance and exceptionally crisp, smooth taste.",
       "prices": {
         "Gurgaon": 190,
@@ -485,7 +485,7 @@
       "origin": "Cognac, France",
       "abv": "40%",
       "badge": "Ultra-Premium Vodka",
-      "image": "https://www.eightpm.co.nz/cdn/shop/products/grey-goose-premium-vodka-700ml-681944.jpg?v=1624199749",
+      "image": "/images/grey-goose.webp",
       "tastingNotes": "Distilled from soft winter wheat from Picardie and Gensac spring water. Creamy almond pastry notes and a silky, clean finish.",
       "prices": {
         "Gurgaon": 3200,
@@ -504,7 +504,7 @@
       "origin": "Åhus, Sweden",
       "abv": "40%",
       "badge": "Zero Added Sugar",
-      "image": "https://assets.iceland.co.uk/i/iceland/absolut_original_swedish_vodka_70cl_71748_T1.jpg",
+      "image": "/images/absolut-vodka.jpg",
       "tastingNotes": "Continuous distillation using winter wheat and deep well water in Åhus. Rich, full-bodied grain character with dried fruit hints.",
       "prices": {
         "Gurgaon": 1500,
@@ -523,7 +523,7 @@
       "origin": "Ghaziabad, India",
       "abv": "42.8%",
       "badge": "Cult Classic",
-      "image": "https://globalspirits.co.nz/cdn/shop/products/0029157_old-monk-the-legend-rum-1-ltr_grande.jpg?v=1662800695",
+      "image": "/images/old-monk-legend.webp",
       "tastingNotes": "Iconic monk-head decanter filled with vatted dark Indian rum bursting with roasted coffee, dark caramel, vanilla, and jaggery.",
       "prices": {
         "Gurgaon": 950,
@@ -542,7 +542,7 @@
       "origin": "Puerto Rico / India",
       "abv": "42.8%",
       "badge": "Mojito Essential",
-      "image": "https://www.drinksinc.com/cdn/shop/files/bcc97411-02d1-4dd7-8d64-dc14a57b638c.jpg?v=1763386193&width=900",
+      "image": "/images/bacardi-carta-blanca.webp",
       "tastingNotes": "Aged in American white oak barrels and shaped through a secret blend of charcoal for floral, vanilla, and citrus cocktail perfection.",
       "prices": {
         "Gurgaon": 800,
@@ -561,7 +561,7 @@
       "origin": "Jalisco, Mexico",
       "abv": "40%",
       "badge": "100% De Agave",
-      "image": "https://cdn.shopify.com/s/files/1/0099/0045/8042/files/2025_bottle_silver-mjllDTu1sqOB5b.jpg?v=1770993338",
+      "image": "/images/patron-silver.webp",
       "tastingNotes": "Handcrafted from the finest 100% Weber Blue Agave in Jalisco. Smooth roasted agave, bright citrus, and light white pepper.",
       "prices": {
         "Gurgaon": 4800,
@@ -599,7 +599,7 @@
       "origin": "Nashik, India",
       "abv": "14%",
       "badge": "Estate Reserve",
-      "image": "https://cf.shopee.sg/file/c45edb0c19bf70ea14b0d3a8a80d6183",
+      "image": "/images/sula-dindori.jpg",
       "tastingNotes": "Matured in American oak barrels for 12 months. Silky red berries, mocha, vanilla bean, and smoky black pepper.",
       "prices": {
         "Gurgaon": 1150,
@@ -618,7 +618,7 @@
       "origin": "South Eastern Australia",
       "abv": "13%",
       "badge": "Crisp Australian White",
-      "image": "https://cdn.metcash.media/image/upload/f_auto%2Cc_limit%2Cw_1500%2Cq_auto/igashop/images/6600933",
+      "image": "/images/jacobs-creek-chard.jpg",
       "tastingNotes": "Ripe melon and white peach flavours layered with zesty lemon curd and subtle toasted oak creaminess.",
       "prices": {
         "Gurgaon": 1250,
@@ -652,7 +652,7 @@
       "origin": "Nashik, India",
       "volume": "750ML",
       "rating": 4.7,
-      "image": "https://cf.shopee.sg/file/c45edb0c19bf70ea14b0d3a8a80d6183",
+      "image": "/images/sula-dindori-shiraz.jpg",
       "notes": "Blackberry, dark mocha & American oak spice",
       "prices": {
         "Gurgaon": 1150,
@@ -668,7 +668,7 @@
       "origin": "Provence, France",
       "volume": "750ML",
       "rating": 4.8,
-      "image": "https://www.costco.co.uk/medias/sys_master/images/hb0/hee/312484953751582.jpg",
+      "image": "/images/whispering-angel.avif",
       "notes": "Dry summer berries, white peach & mineral finish",
       "prices": {
         "Gurgaon": 3400,
@@ -684,7 +684,7 @@
       "origin": "Barossa, Australia",
       "volume": "750ML",
       "rating": 4.6,
-      "image": "https://cdn.metcash.media/image/upload/f_auto%2Cc_limit%2Cw_1500%2Cq_auto/igashop/images/6600933",
+      "image": "/images/jacobs-creek-chardonnay.jpg",
       "notes": "Zesty lemon, ripe melon & creamy oak finish",
       "prices": {
         "Gurgaon": 1250,
@@ -703,7 +703,7 @@
       "baseSpirit": "Sous-Vide Vetiver Gin & Dry Vermouth",
       "glassware": "Nick & Nora Glass",
       "difficulty": "Advanced Craft",
-      "image": "https://static.livcheers.com/static/icons/future_icons_images/52-comorin-gurgaon-product-1-20260912.webp",
+      "image": "/images/common-thread.webp",
       "color": "from-amber-500/20 to-emerald-600/20",
       "ingredients": [
         "60ml Vetiver-root infused Greater Than or Stranger & Sons Gin",
@@ -721,7 +721,7 @@
       "baseSpirit": "Indian Single Malt & Smoked Pineapple",
       "glassware": "Tall Collins Glass",
       "difficulty": "Signature Highball",
-      "image": "https://static.livcheers.com/static/icons/future_icons_images/59-aabbcc-product-1-20260912.webp",
+      "image": "/images/hemus-highball.webp",
       "color": "from-yellow-500/20 to-amber-700/20",
       "ingredients": [
         "50ml Indri Trini Single Malt Whisky",
@@ -739,7 +739,7 @@
       "baseSpirit": "Clarified Tomato Vodka & Herb Oil",
       "glassware": "Chilled Coupe",
       "difficulty": "Molecular Clarified",
-      "image": "https://static.livcheers.com/static/icons/future_icons_images/70-red-vasant-vihar-product-1-20260912.webp",
+      "image": "/images/mary-me-martini.webp",
       "color": "from-rose-500/20 to-amber-500/20",
       "ingredients": [
         "60ml Grey Goose Vodka rested with sun-dried cherry tomatoes",
@@ -757,7 +757,7 @@
       "baseSpirit": "Blended Scotch & Elderflower",
       "glassware": "Rocks Glass over Clear Ice Sphere",
       "difficulty": "Modern Classic",
-      "image": "https://static.livcheers.com/static/icons/future_icons_images/68-ophelia-delhi-product-1-20260912.webp",
+      "image": "/images/highland-botanist.webp",
       "color": "from-emerald-500/20 to-gold-500/20",
       "ingredients": [
         "50ml Chivas Regal 12 YO or Johnnie Walker Black Label",
@@ -775,7 +775,7 @@
       "baseSpirit": "Bourbon & Wood Apple (Bael)",
       "glassware": "Old Fashioned Tumbler",
       "difficulty": "Indigenous Forage",
-      "image": "https://static.livcheers.com/static/icons/future_icons_images/51-cnd-speakeasy-product-2-20260912.webp",
+      "image": "/images/bilvananda.webp",
       "color": "from-orange-500/20 to-amber-800/20",
       "ingredients": [
         "60ml Maker's Mark or Jim Beam Bourbon",
@@ -793,7 +793,7 @@
       "baseSpirit": "Indian Craft Gin & Salted Pomelo",
       "glassware": "Stemless Wine Goblet",
       "difficulty": "Mediterranean Spritz",
-      "image": "https://static.livcheers.com/static/icons/future_icons_images/67-olive-bar-kitchen-delhi-product-1-20260912.webp",
+      "image": "/images/albatross.webp",
       "color": "from-teal-500/20 to-amber-500/20",
       "ingredients": [
         "50ml Jaisalmer Indian Craft Gin",
