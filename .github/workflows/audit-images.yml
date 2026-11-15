@@ -1,0 +1,41 @@
+name: Audit all product images
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/audit-product-images.mjs'
+      - '.github/workflows/audit-images.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit-and-build:
+    runs-on: ubuntu-latest
+    env:
+      SUPABASE_URL: https://qdlohormyrumfhzdaxum.supabase.co
+      SUPABASE_PUBLISHABLE_KEY: sb_publishable_FGFlX-siLsJIHJboSTMNPQ_HTM225gs
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install dependencies
+        run: npm install --no-package-lock
+      - name: Scan all active Supabase product images
+        run: npm run images:audit-all
+      - name: Build production website
+        run: npm run build
+      - name: Commit validated images and database URL updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/images src/catalog.seed.json image-sources.json image-audit.json supabase/updates/20261116_sync_local_product_images.sql
+          if git diff --cached --quiet; then
+            echo "No image or database URL changes to commit."
+          else
+            git commit -m "Audit product images and store validated bottle photos locally"
+            git push
+          fi
