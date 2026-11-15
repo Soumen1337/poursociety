@@ -37,5 +37,7 @@ jobs:
             echo "No image or database URL changes to commit."
           else
             git commit -m "Audit product images and store validated bottle photos locally"
+            git fetch origin main
+            git rebase origin/main
             git push
           fi
