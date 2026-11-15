@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { supabase, backendReady } from './supabase';
 import seed from './catalog.seed.json';
-import { Search, MapPin, Star, Heart, SlidersHorizontal, X, ArrowUpRight, Wine, Martini, ShieldCheck, LogIn, LogOut, Upload, Plus, RefreshCw, Database, Menu } from 'lucide-react';
+import { Search, MapPin, Star, Heart, SlidersHorizontal, X, ArrowUpRight, Wine, Martini, ShieldCheck, LogIn, LogOut, Upload, Plus, RefreshCw, Database, Menu, Sun, Moon } from 'lucide-react';
 
 const CITIES = ['Gurgaon','Delhi','Noida','Jaipur'];
 const CITY_IDS = {Gurgaon:'gurgaon',Delhi:'delhi',Noida:'noida',Jaipur:'jaipur'};
@@ -22,6 +22,7 @@ function ProductImage({src,name}) {
 
 export default function App(){
   const [items,setItems]=useState(seedItems); const [city,setCity]=useState('Gurgaon'); const [type,setType]=useState('all');
+  const [theme,setTheme]=useState(()=>{try{return localStorage.getItem('ps-theme')==='light'?'light':'dark';}catch{return 'dark';}});
   const [query,setQuery]=useState(''); const [sort,setSort]=useState('featured'); const [selected,setSelected]=useState(null);
   const [favorites,setFavorites]=useState(()=>JSON.parse(localStorage.getItem('ps-favorites')||'[]'));
   const [session,setSession]=useState(null); const [isAdmin,setIsAdmin]=useState(false); const [authOpen,setAuthOpen]=useState(false); const [adminOpen,setAdminOpen]=useState(false);
@@ -29,6 +30,13 @@ export default function App(){
   const [showFavorites,setShowFavorites]=useState(false); const [imageSyncing,setImageSyncing]=useState(false); const [imageSyncMessage,setImageSyncMessage]=useState(''); const [mobileMenu,setMobileMenu]=useState(false); const [backendMessage,setBackendMessage]=useState(''); const [compareIds,setCompareIds]=useState([]); const [compareOpen,setCompareOpen]=useState(false); const [priceHistory,setPriceHistory]=useState([]);
 
   useEffect(()=>{localStorage.setItem('ps-favorites',JSON.stringify(favorites));},[favorites]);
+  useEffect(()=>{
+    document.documentElement.dataset.theme=theme;
+    document.documentElement.style.colorScheme=theme;
+    const themeColor=document.querySelector('meta[name="theme-color"]');
+    if(themeColor)themeColor.setAttribute('content',theme==='light'?'#f7f4ec':'#0b0b0e');
+    try{localStorage.setItem('ps-theme',theme);}catch{}
+  },[theme]);
   useEffect(()=>{if(!supabase)return; supabase.auth.getSession().then(({data})=>setSession(data.session)); const {data:{subscription}}=supabase.auth.onAuthStateChange((_e,s)=>setSession(s)); return ()=>subscription.unsubscribe();},[]);
   useEffect(()=>{if(!supabase)return; let alive=true; (async()=>{const {data:products,error}=await supabase.from('products').select('*, city_prices(city,price,updated_at,source_label,verified,source_type)').eq('active',true).order('name'); if(error){setBackendMessage('Database connected, but catalogue query failed. Check the SQL migration and RLS policies.');return;} if(!alive||!products?.length)return; const mapped=products.map(mapProductRow); setItems(mapped);})(); return ()=>{alive=false};},[]);
   useEffect(()=>{if(!supabase||!session?.user){setIsAdmin(false);return;} supabase.from('profiles').select('role').eq('id',session.user.id).maybeSingle().then(({data,error})=>setIsAdmin(!error&&data?.role==='admin')); supabase.from('favourites').select('product_id').eq('user_id',session.user.id).then(({data})=>{if(data)setFavorites(data.map(x=>x.product_id));});},[session]);
@@ -48,7 +56,7 @@ export default function App(){
   return <div className="app-shell">
     <header className="topbar"><a className="brand" href="#top"><span className="brand-mark"><Wine size={22}/></span><span><b><i>pour</i><em>society</em></b><small>SPIRITS DISCOVERY & PRICE GUIDE</small></span><span className="india">INDIA</span></a>
       <nav className={mobileMenu?'nav open':'nav'}><a href="#discover" onClick={()=>setMobileMenu(false)}>Discover</a><a href="#cocktails" onClick={()=>{setType('cocktail');setMobileMenu(false)}}>Cocktails</a><a href="#about">About</a></nav>
-      <div className="top-actions"><button className="icon-btn" title="Saved items" onClick={()=>setShowFavorites(v=>!v)}><Heart size={18}/><span>{favorites.length}</span></button>{session?<button className="small-btn" onClick={signOut}><LogOut size={15}/> Sign out</button>:<button className="small-btn" onClick={()=>setAuthOpen(true)}><LogIn size={15}/> Sign in</button>}{isAdmin&&<button className="gold-btn" onClick={()=>setAdminOpen(true)}>Admin</button>}<button className="mobile-toggle" onClick={()=>setMobileMenu(v=>!v)}><Menu/></button></div>
+      <div className="top-actions"><button className="theme-toggle" type="button" aria-label={theme==='dark'?'Switch to light theme':'Switch to dark theme'} title={theme==='dark'?'Switch to light theme':'Switch to dark theme'} onClick={()=>setTheme(t=>t==='dark'?'light':'dark')}>{theme==='dark'?<Sun size={16}/>:<Moon size={16}/>}<span>{theme==='dark'?'Light':'Dark'}</span></button><button className="icon-btn" title="Saved items" onClick={()=>setShowFavorites(v=>!v)}><Heart size={18}/><span>{favorites.length}</span></button>{session?<button className="small-btn" onClick={signOut}><LogOut size={15}/> Sign out</button>:<button className="small-btn" onClick={()=>setAuthOpen(true)}><LogIn size={15}/> Sign in</button>}{isAdmin&&<button className="gold-btn" onClick={()=>setAdminOpen(true)}>Admin</button>}<button className="mobile-toggle" onClick={()=>setMobileMenu(v=>!v)}><Menu/></button></div>
     </header>
     <main id="top"><section className="hero"><div className="eyebrow"><span/> THE ART OF DISCOVERY <span/></div><h1>Find your next<br/><i>great pour.</i></h1><p>Explore exceptional spirits, discover crafted cocktails and compare indicative prices across four cities.</p><a className="hero-link" href="#discover">Explore the collection <ArrowUpRight size={16}/></a><div className="hero-stats"><div><b>{items.length}</b><span>Curated listings</span></div><div><b>04</b><span>Indian cities</span></div><div><b>01</b><span>Place to compare</span></div></div></section>
       <section className="toolbar" id="discover"><div><div className="section-kicker">THE COLLECTION</div><h2>Discover <i>drinks</i></h2></div><div className="city-select"><MapPin size={15}/><select value={city} onChange={e=>setCity(e.target.value)}>{CITIES.map(c=><option key={c}>{c}</option>)}</select></div></section>
