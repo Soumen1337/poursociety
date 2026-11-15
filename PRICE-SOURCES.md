@@ -1,22 +1,16 @@
 # PourSociety city price sources
 
-The following official/state sources were checked on **15 November 2026** and registered in `public.price_sources`. The 148 seeded city-price values remain **unverified legacy estimates** until each one is checked against a current official SKU/pack-size record or an authorized retailer feed.
+The following official state sources were checked on **15 November 2026** and registered in `public.price_sources`. The original catalogue contains **43 products and 148 city-price estimates**. Those values are unverified legacy snapshots with unknown source dates, not live retail quotes.
 
-| City | Official source | Scope observed | Automation status |
+| City | Official source | What it publishes | Automation status |
 |---|---|---|---|
-| Delhi | [Delhi Excise Department — Price List](https://excise.delhi.gov.in/excise/additional-information-0) | Official department page links to a separate Price List portal | Manual review required; machine-readable API/access terms not verified |
-| Gurgaon | [Haryana Excise Policy 2025–27](https://haryanatax.gov.in/HEX/DownloadPDF?formName=%2FExcisePolicy2025_27%2FExcise_Policy_2025_27.pdf) | Minimum retail-price bands and pack-size categories for 1 April 2026–31 March 2027; not a complete SKU-level list | Manual review required; policy bands must not be treated as exact brand MRP |
-| Noida | [Uttar Pradesh Excise IESCMS](https://cms.upexciseonline.co/) | Official portal exposes Entity Type Wise MRP and Liquor Type Wise MRP | Manual review required; automated endpoint/access terms not verified |
-| Jaipur | [Rajasthan Excise — Approved Rate List 2026–27](https://excise.rajasthan.gov.in/RSED/Website/Approved-Rate-List.aspx) and [Search Brand MRP](https://excise.rajasthan.gov.in/RSBCL-Price-List-BrandWise.aspx) | Official brand/approved-rate portal | Manual review required; dynamic result request/API contract not verified |
+| Delhi | [Delhi Excise Department — Additional Information / Price List](https://excise.delhi.gov.in/excise/additional-information-0) | The official page links to a separate Price List portal at `delhiexcise.gov.in/Portal/priceList.action`. The target portal timed out during this check. | Manual review required; no supported API or automated-access terms verified |
+| Gurgaon | [Haryana Excise Policy 2025–27](https://haryanatax.gov.in/HEX/DownloadPDF?formName=%2FExcisePolicy2025_27%2FExcise_Policy_2025_27.pdf) | Minimum retail-sale price schedules by category and pack size, including a 01-Apr-2026 to 31-Mar-2027 schedule. It is not a complete SKU-level MRP feed. | Manual review required; policy floors must not be substituted for exact brand/pack MRP |
+| Noida | [UP Excise — Entity Type Wise MRP](https://cms.upexciseonline.co/brand-mrp/) | Dynamic table with Financial Year, Entity Type and Domain filters; result columns include unit, brand, sale domain, size, package type and MRP. Rows are dynamically loaded. | Manual review required; no public API contract or automated-access terms verified |
+| Jaipur | [Rajasthan Excise — Approved Rate List 2026–27](https://excise.rajasthan.gov.in/RSED/Website/Approved-Rate-List.aspx) and [Search Brand MRP](https://excise.rajasthan.gov.in/RSBCL-Price-List-BrandWise.aspx) | Approved-rate categories include IMFL, Beer, Imported, CL and RML; a separate brand-MRP page is available. The department page says last updated 07-Aug-2026. | Manual review required; no public API contract or automated-access terms verified |
 
-## Why automatic prices are not enabled yet
+## Why automatic price overwrites are disabled
 
-A public portal is not automatically an API or permission to scrape. Safe automation needs a stable authorized endpoint, clear product/variant/pack-size matching, access terms that permit automated retrieval, and a validation step. Haryana's policy publishes category price floors; it must not be conflated with live SKU-level MRP.
+A public page is not automatically a supported data API. Reliable automation needs a stable official or authorized endpoint, permission for automated retrieval, exact brand-variant/pack-size matching, and a validation path. Haryana publishes minimum prices by category and pack size, not exact retail MRP for every SKU. UP and Rajasthan expose dynamic tables, but their data endpoints and automated-access terms have not been verified. Delhi links to a separate price portal that was not retrievable during this check.
 
-The authenticated `price-ingest` Edge Function is deployed and accepts validated price rows from an approved source. It records source name, URL, update time and price history. New ingested prices remain unverified until an administrator checks the underlying source. No scheduled importer is active because no supported/authorized machine-readable price feed has yet been confirmed.
-
-Official-source checks:
-- Delhi's official page lists a separate “Price List” link.
-- Haryana's policy gives category/pack-size minimum retail prices for FY 2026–27.
-- UP Excise's official portal lists Entity Type Wise MRP and Liquor Type Wise MRP.
-- Rajasthan's official rate-list portal identifies the 2026–27 year and a Search Brand MRP facility.
+The deployed `price-ingest` Edge Function accepts validated rows from an approved feed and logs source details and price history. API imports remain unverified until an administrator checks them. **No scheduled live price importer is enabled.** Do not silently overwrite prices until an authorized source integration and brand/pack-size matching have been tested.
