@@ -1,0 +1,27 @@
+name: Expand PourSociety source package
+
+on:
+  push:
+    paths:
+      - 'poursociety-platform.zip.part3'
+
+permissions:
+  contents: write
+
+jobs:
+  expand:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Expand application source
+        run: |
+          cat poursociety-platform.zip.part* | base64 --decode > /tmp/poursociety-platform.zip
+          mkdir -p /tmp/poursociety-src
+          unzip -q /tmp/poursociety-platform.zip -d /tmp/poursociety-src
+          rsync -a --exclude='.git/' /tmp/poursociety-src/poursociety-platform/ ./
+          rm -f poursociety-platform.zip.part*
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Add PourSociety application source"
+          git push
