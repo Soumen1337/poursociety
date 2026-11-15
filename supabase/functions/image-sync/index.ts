@@ -18,7 +18,7 @@ const allowedHosts = new Set([
   'www.1855thebottleshop.com', 'www.bestwaywholesale.co.uk', 'www.continente.pt',
   'www.costco.co.uk', 'www.drinksinc.com', 'www.eightpm.co.nz',
   'www.finescottishhampers.com', 'www.instacart.com', 'www.paulsliquor.com.au',
-  'www.theginguild.com', 'www.vlastni-etikety.cz'
+  'www.theginguild.com', 'www.vlastni-etikety.cz', 'www.theboozeoutlet.com', 'bevmo.com', 'puninwine.com', 'www.pauljohnwhisky.com'
 ]);
 
 function response(body: unknown, status = 200) {
@@ -43,7 +43,7 @@ Deno.serve(async (req: Request) => {
 
   const body = await req.json().catch(() => ({}));
   const ids = Array.isArray(body?.product_ids) ? body.product_ids.map(String).slice(0, 50) : null;
-  let query = admin.from('products').select('id,name,image_url,metadata').eq('active', true).not('image_url', 'is', null);
+  let query = admin.from('products').select('id,name,image_url,metadata').eq('active', true);
   if (ids?.length) query = query.in('id', ids);
   const { data: products, error: listError } = await query.order('name');
   if (listError) return response({ error: listError.message }, 500);
@@ -51,7 +51,7 @@ Deno.serve(async (req: Request) => {
   const pending = (products || []).filter(p => {
     try {
       const u = new URL(p.image_url);
-      return u.protocol === 'https:' && allowedHosts.has(u.hostname);
+      const sourceUrl = p.metadata?.source_image_url || p.image_url;\n      const u = new URL(sourceUrl);\n      return u.protocol === 'https:' && allowedHosts.has(u.hostname);
     } catch { return false; }
   });
   const skipped = (products || []).filter(p => !pending.some(x => x.id === p.id)).map(p => ({ id: p.id, name: p.name, status: 'skipped_existing_or_unapproved_host' }));
@@ -62,7 +62,7 @@ Deno.serve(async (req: Request) => {
     while (cursor < pending.length) {
       const product = pending[cursor++];
       try {
-        const source = new URL(product.image_url);
+        const source = new URL(product.metadata?.source_image_url || product.image_url);
         const remote = await fetch(source.toString(), {
           redirect: 'follow',
           headers: { 'user-agent': 'PourSocietyImageSync/1.0' },
@@ -95,7 +95,7 @@ Deno.serve(async (req: Request) => {
           continue;
         }
         const { data: publicUrl } = admin.storage.from('product-images').getPublicUrl(path);
-        const { error: updateError } = await admin.from('products').update({ image_url: publicUrl.publicUrl, metadata: { ...(product.metadata || {}), source_image_url: product.image_url, source_image_synced_at: new Date().toISOString() } }).eq('id', product.id);
+        const { error: updateError } = await admin.from('products').update({ image_url: publicUrl.publicUrl, metadata: { ...(product.metadata || {}), source_image_url: product.metadata?.source_image_url || product.image_url, source_image_synced_at: new Date().toISOString() } }).eq('id', product.id);
         if (updateError) {
           results.push({ id: product.id, name: product.name, status: 'database_error', error: updateError.message });
           continue;
