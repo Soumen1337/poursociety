@@ -1,523 +1,486 @@
 {
-  "total": 43,
-  "note": "Source URLs inherited from the prior catalogue. They have not been verified from this network environment. Run npm run images:audit from a network-enabled machine.",
+  "total": 60,
+  "note": "Sources are original product-image URLs. The full image audit downloads only valid images from approved HTTPS hosts into public/images, records failures in image-audit.json and generates a Supabase image URL update script.",
   "entries": [
-    {
-      "id": "indri-trini",
-      "name": "Indri Trini Single Malt",
-      "type": "products",
-      "source_url": "https://londonspiritscompetition.com/cont/competitionSubmissions/imagePot/LondonSpiritsCompetition-02102022032809000000-6204daa99e8e5.jpg",
-      "host": "londonspiritscompetition.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/indri-trini.jpg",
-      "content_type": "image/jpeg",
-      "bytes": 142794,
-      "audit_error": null
-    },
-    {
-      "id": "amrut-fusion",
-      "name": "Amrut Fusion Single Malt",
-      "type": "products",
-      "source_url": "https://www.1855thebottleshop.com/cdn/shop/products/amrut-fusion-single-malt-whisky-700ml-bottle.jpg?crop=center&height=800&v=1755690201&width=800",
-      "host": "www.1855thebottleshop.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/amrut-fusion.webp",
-      "content_type": "image/webp",
-      "bytes": 20524,
-      "audit_error": null
-    },
-    {
-      "id": "rampur-dc",
-      "name": "Rampur Double Cask Single Malt",
-      "type": "products",
-      "source_url": "https://cdn11.bigcommerce.com/s-0ddlsmhg83/images/stencil/original/products/2352/2576/rampur-double-cask-indian-single-malt-whisky__00405.1752495277.1280.1280__33148.1755241711.jpg?c=1",
-      "host": "cdn11.bigcommerce.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/rampur-dc.jpg",
-      "content_type": "image/jpeg",
-      "bytes": 43985,
-      "audit_error": null
-    },
-    {
-      "id": "gianchand",
-      "name": "GianChand Single Malt Whisky",
-      "type": "products",
-      "source_url": "https://www.paulsliquor.com.au/cdn/shop/files/GainChand-Single-malt.png?v=1717137872",
-      "host": "www.paulsliquor.com.au",
-      "status": "downloaded_and_validated",
-      "local": "/images/gianchand.webp",
-      "content_type": "image/webp",
-      "bytes": 36560,
-      "audit_error": null
-    },
-    {
-      "id": "glenfiddich-12",
-      "name": "Glenfiddich 12 YO Single Malt",
-      "type": "products",
-      "source_url": "https://www.instacart.com/assets/domains/product-image/file/large_4595f1dd-866f-4876-b275-63dd3ec06f1e.jpeg",
-      "host": "www.instacart.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/glenfiddich-12.jpg",
-      "content_type": "image/jpeg",
-      "bytes": 37544,
-      "audit_error": null
-    },
-    {
-      "id": "glenlivet-12",
-      "name": "The Glenlivet 12 YO Double Oak",
-      "type": "products",
-      "source_url": "https://paneco-sg-moonshine-production.s3.ap-southeast-1.amazonaws.com/shgwi0eiuh7jaqb76x7tlw6ddvcq",
-      "host": "paneco-sg-moonshine-production.s3.ap-southeast-1.amazonaws.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/glenlivet-12.jpg",
-      "content_type": "image/jpeg",
-      "bytes": 102880,
-      "audit_error": null
-    },
-    {
-      "id": "macallan-12",
-      "name": "The Macallan Double Cask 12 YO",
-      "type": "products",
-      "source_url": "https://brand-assets.edrington.com/transform/7020a501-9c82-47e3-b0df-03faaa2e40a2/MAC-2023-Double-Cask-12YO-Bottle--70cl-RGB-WEB-initial?io=transform%3Afit%2Cwidth%3A599%2Cheight%3A599&quality=100",
-      "host": "brand-assets.edrington.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/macallan-12.avif",
-      "content_type": "image/avif",
-      "bytes": 56103,
-      "audit_error": null
-    },
-    {
-      "id": "talisker-10",
-      "name": "Talisker 10 YO Single Malt",
-      "type": "products",
-      "source_url": "https://www.finescottishhampers.com/image_resize/back/w1500/products/502/71PfYLlDUoL.ACSL1500.jpg",
-      "host": "www.finescottishhampers.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/talisker-10.webp",
-      "content_type": "image/webp",
-      "bytes": 52526,
-      "audit_error": null
-    },
-    {
-      "id": "jw-black",
-      "name": "Johnnie Walker Black Label 12 YO",
-      "type": "products",
-      "source_url": "https://images.ctfassets.net/waruwpig3jxu/55BPOqOreCU44edDswoigY/153eae9e783bce07830134d161a349b3/black-750ml_producthero_fullfront_desktop.webp?q=80&w=2560",
-      "host": "images.ctfassets.net",
-      "status": "downloaded_and_validated",
-      "local": "/images/jw-black.webp",
-      "content_type": "image/webp",
-      "bytes": 51218,
-      "audit_error": null
-    },
-    {
-      "id": "monkey-shoulder",
-      "name": "Monkey Shoulder Blended Malt",
-      "type": "products",
-      "source_url": "https://static.maxi.rs/medias/sys_master/products/h8b/he5/9243860762654.jpg?buildNumber=7314f1c628b31db1405f1b35130f0cc5c045b6859f4cb8a9cf45d1646bf42030",
-      "host": "static.maxi.rs",
-      "status": "downloaded_and_validated",
-      "local": "/images/monkey-shoulder.avif",
-      "content_type": "image/avif",
-      "bytes": 82857,
-      "audit_error": null
-    },
-    {
-      "id": "chivas-12",
-      "name": "Chivas Regal 12 YO",
-      "type": "products",
-      "source_url": "https://internetwines.com/cdn/shop/files/Chivas12_2023_4480x.jpg?v=1688952639",
-      "host": "internetwines.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/chivas-12.webp",
-      "content_type": "image/webp",
-      "bytes": 53614,
-      "audit_error": null
-    },
-    {
-      "id": "ballantines-finest",
-      "name": "Ballantine's Finest Blended Scotch",
-      "type": "products",
-      "source_url": "https://www.continente.pt/on/demandware.static/-/Sites-col-master-catalog/default/dw78d2f8d9/images/col/205/2050153-frente.jpg",
-      "host": "www.continente.pt",
-      "status": "downloaded_and_validated",
-      "local": "/images/ballantines-finest.jpg",
-      "content_type": "image/jpeg",
-      "bytes": 92894,
-      "audit_error": null
-    },
-    {
-      "id": "jameson",
-      "name": "Jameson Triple Distilled Irish Whiskey",
-      "type": "products",
-      "source_url": "https://www.vlastni-etikety.cz/design/labels/galerie/jameson_3.jpg",
-      "host": "www.vlastni-etikety.cz",
-      "status": "downloaded_and_validated",
-      "local": "/images/jameson.jpg",
-      "content_type": "image/jpeg",
-      "bytes": 43266,
-      "audit_error": null
-    },
-    {
-      "id": "jack-daniels",
-      "name": "Jack Daniel's Old No. 7 Tennessee",
-      "type": "products",
-      "source_url": "https://www.bestwaywholesale.co.uk/img/products/1000/8/5099873089798.jpg",
-      "host": "www.bestwaywholesale.co.uk",
-      "status": "downloaded_and_validated",
-      "local": "/images/jack-daniels.jpg",
-      "content_type": "image/jpeg",
-      "bytes": 82642,
-      "audit_error": null
-    },
-    {
-      "id": "jim-beam-white",
-      "name": "Jim Beam Kentucky Straight Bourbon",
-      "type": "products",
-      "source_url": "https://drinky.ch/cdn/shop/files/drinky_produkte_bilder_jim_beam_bourbon_whiskey_einzelflasche.jpg?v=1718983044",
-      "host": "drinky.ch",
-      "status": "downloaded_and_validated",
-      "local": "/images/jim-beam-white.webp",
-      "content_type": "image/webp",
-      "bytes": 38126,
-      "audit_error": null
-    },
-    {
-      "id": "makers-mark",
-      "name": "Maker's Mark Handmade Bourbon",
-      "type": "products",
-      "source_url": "https://woodencork.com/cdn/shop/products/00085246139431_C1N1_en-US0927_s01.jpg?v=1679527951",
-      "host": "woodencork.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/makers-mark.webp",
-      "content_type": "image/webp",
-      "bytes": 52872,
-      "audit_error": null
-    },
-    {
-      "id": "greater-than",
-      "name": "Greater Than London Dry Gin",
-      "type": "products",
-      "source_url": "https://www.paulsliquor.com.au/cdn/shop/products/greater-than-london-dry-gin.jpg?v=1669087955",
-      "host": "www.paulsliquor.com.au",
-      "status": "downloaded_and_validated",
-      "local": "/images/greater-than.webp",
-      "content_type": "image/webp",
-      "bytes": 15048,
-      "audit_error": null
-    },
-    {
-      "id": "stranger-sons",
-      "name": "Stranger & Sons Indian Spirited Gin",
-      "type": "products",
-      "source_url": "https://www.theginguild.com/wp-content/uploads/2020/11/stranger-and-sons-indian-spirited-gin.jpg",
-      "host": "www.theginguild.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/stranger-sons.jpg",
-      "content_type": "image/jpeg",
-      "bytes": 50090,
-      "audit_error": null
-    },
-    {
-      "id": "jaisalmer-gin",
-      "name": "Jaisalmer Indian Craft Gin",
-      "type": "products",
-      "source_url": "https://m.media-amazon.com/images/I/61mI0%2BFo1kL._AC_SL1500_.jpg",
-      "host": "m.media-amazon.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/jaisalmer-gin.jpg",
-      "content_type": "image/jpeg",
-      "bytes": 79941,
-      "audit_error": null
-    },
-    {
-      "id": "hendricks-gin",
-      "name": "Hendrick's Scottish Small Batch Gin",
-      "type": "products",
-      "source_url": "https://mrliquor.com.au/cdn/shop/products/Hendrick_s_Gin_700mL-1.jpg?v=1573617605",
-      "host": "mrliquor.com.au",
-      "status": "downloaded_and_validated",
-      "local": "/images/hendricks-gin.webp",
-      "content_type": "image/webp",
-      "bytes": 157858,
-      "audit_error": null
-    },
-    {
-      "id": "corona-extra",
-      "name": "Corona Extra Mexican Pint",
-      "type": "products",
-      "source_url": "https://godrinks.com/cdn/shop/files/CoronaExtra35.5cl.png?v=1709626396",
-      "host": "godrinks.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/corona-extra.webp",
-      "content_type": "image/webp",
-      "bytes": 32642,
-      "audit_error": null
-    },
-    {
-      "id": "hoegaarden",
-      "name": "Hoegaarden Witbier Pint",
-      "type": "products",
-      "source_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-720201-0201629368-lCKDV670.jpg",
-      "host": "images.cdn.europe-west1.gcp.commercetools.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/hoegaarden.jpg",
-      "content_type": "image/jpeg",
-      "bytes": 129948,
-      "audit_error": null
-    },
-    {
-      "id": "bira-white",
-      "name": "Bira 91 White Ale Can",
-      "type": "products",
-      "source_url": "https://images.news18.com/static-bengali/uploads/2025/11/Bira-Beer-Image-2025-11-1a63df653c88ca8c4da1deac7e47aac3.jpg?height=620&impolicy=website&width=827",
-      "host": "images.news18.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/bira-white.avif",
-      "content_type": "image/avif",
-      "bytes": 30417,
-      "audit_error": null
-    },
-    {
-      "id": "bud-magnum",
-      "name": "Budweiser Magnum Strong Bottle",
-      "type": "products",
-      "source_url": "https://onlinealcohol.in/storage/2020/09/Budweiser-Magnum-330-ml.jpg",
-      "host": "onlinealcohol.in",
-      "status": "downloaded_and_validated",
-      "local": "/images/bud-magnum.webp",
-      "content_type": "image/webp",
-      "bytes": 11196,
-      "audit_error": null
-    },
-    {
-      "id": "kf-ultra",
-      "name": "Kingfisher Ultra Smooth Lager",
-      "type": "products",
-      "source_url": "https://boozeexpress.com.au/cdn/shop/files/KingfisherUltraPremiumIndianLagerBeerBottles650mL.png?v=1772318650",
-      "host": "boozeexpress.com.au",
-      "status": "downloaded_and_validated",
-      "local": "/images/kf-ultra.webp",
-      "content_type": "image/webp",
-      "bytes": 72574,
-      "audit_error": null
-    },
-    {
-      "id": "grey-goose",
-      "name": "Grey Goose French Vodka",
-      "type": "products",
-      "source_url": "https://www.eightpm.co.nz/cdn/shop/products/grey-goose-premium-vodka-700ml-681944.jpg?v=1624199749",
-      "host": "www.eightpm.co.nz",
-      "status": "downloaded_and_validated",
-      "local": "/images/grey-goose.webp",
-      "content_type": "image/webp",
-      "bytes": 27426,
-      "audit_error": null
-    },
     {
       "id": "absolut-vodka",
       "name": "Absolut Original Swedish Vodka",
       "type": "products",
       "source_url": "https://assets.iceland.co.uk/i/iceland/absolut_original_swedish_vodka_70cl_71748_T1.jpg",
-      "host": "assets.iceland.co.uk",
-      "status": "downloaded_and_validated",
-      "local": "/images/absolut-vodka.jpg",
-      "content_type": "image/jpeg",
-      "bytes": 179051,
-      "audit_error": null
-    },
-    {
-      "id": "old-monk-legend",
-      "name": "Old Monk The Legend Dark Rum",
-      "type": "products",
-      "source_url": "https://globalspirits.co.nz/cdn/shop/products/0029157_old-monk-the-legend-rum-1-ltr_grande.jpg?v=1662800695",
-      "host": "globalspirits.co.nz",
-      "status": "downloaded_and_validated",
-      "local": "/images/old-monk-legend.webp",
-      "content_type": "image/webp",
-      "bytes": 31726,
-      "audit_error": null
-    },
-    {
-      "id": "bacardi-carta-blanca",
-      "name": "Bacardí Carta Blanca Superior White Rum",
-      "type": "products",
-      "source_url": "https://www.drinksinc.com/cdn/shop/files/bcc97411-02d1-4dd7-8d64-dc14a57b638c.jpg?v=1763386193&width=900",
-      "host": "www.drinksinc.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/bacardi-carta-blanca.webp",
-      "content_type": "image/webp",
-      "bytes": 26826,
-      "audit_error": null
-    },
-    {
-      "id": "patron-silver",
-      "name": "Patrón Silver 100% Blue Weber Tequila",
-      "type": "products",
-      "source_url": "https://cdn.shopify.com/s/files/1/0099/0045/8042/files/2025_bottle_silver-mjllDTu1sqOB5b.jpg?v=1770993338",
-      "host": "cdn.shopify.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/patron-silver.webp",
-      "content_type": "image/webp",
-      "bytes": 70642,
-      "audit_error": null
-    },
-    {
-      "id": "moet-imperial",
-      "name": "Moët & Chandon Impérial Brut Champagne",
-      "type": "products",
-      "source_url": "https://digitalcontent.api.tesco.com/v2/media/ghs/af98ad9a-31fa-4afd-ac96-4be5f2b1142d/938ff3c3-dbe3-4d0d-86b6-de9fa851fdcf_1910783801.jpeg",
-      "host": "digitalcontent.api.tesco.com",
-      "status": "source_unavailable_or_not_image",
-      "local": null,
-      "content_type": "application/json",
-      "bytes": null,
-      "audit_error": null
-    },
-    {
-      "id": "sula-dindori",
-      "name": "Sula Dindori Reserve Shiraz",
-      "type": "products",
-      "source_url": "https://cf.shopee.sg/file/c45edb0c19bf70ea14b0d3a8a80d6183",
-      "host": "cf.shopee.sg",
-      "status": "downloaded_and_validated",
-      "local": "/images/sula-dindori.jpg",
-      "content_type": "image/jpeg",
-      "bytes": 62945,
-      "audit_error": null
-    },
-    {
-      "id": "jacobs-creek-chard",
-      "name": "Jacob's Creek Classic Chardonnay",
-      "type": "products",
-      "source_url": "https://cdn.metcash.media/image/upload/f_auto%2Cc_limit%2Cw_1500%2Cq_auto/igashop/images/6600933",
-      "host": "cdn.metcash.media",
-      "status": "downloaded_and_validated",
-      "local": "/images/jacobs-creek-chard.jpg",
-      "content_type": "image/jpeg",
-      "bytes": 51759,
-      "audit_error": null
-    },
-    {
-      "id": "moet-chandon-brut",
-      "name": "Moët & Chandon Impérial Brut",
-      "type": "wines",
-      "source_url": "https://digitalcontent.api.tesco.com/v2/media/ghs/af98ad9a-31fa-4afd-ac96-4be5f2b1142d/938ff3c3-dbe3-4d0d-86b6-de9fa851fdcf_1910783801.jpeg",
-      "host": "digitalcontent.api.tesco.com",
-      "status": "source_unavailable_or_not_image",
-      "local": null,
-      "content_type": "application/json",
-      "bytes": null,
-      "audit_error": null
-    },
-    {
-      "id": "sula-dindori-shiraz",
-      "name": "Sula Dindori Reserve Shiraz",
-      "type": "wines",
-      "source_url": "https://cf.shopee.sg/file/c45edb0c19bf70ea14b0d3a8a80d6183",
-      "host": "cf.shopee.sg",
-      "status": "downloaded_and_validated",
-      "local": "/images/sula-dindori-shiraz.jpg",
-      "content_type": "image/jpeg",
-      "bytes": 62945,
-      "audit_error": null
-    },
-    {
-      "id": "whispering-angel",
-      "name": "Château d'Esclans Whispering Angel",
-      "type": "wines",
-      "source_url": "https://www.costco.co.uk/medias/sys_master/images/hb0/hee/312484953751582.jpg",
-      "host": "www.costco.co.uk",
-      "status": "downloaded_and_validated",
-      "local": "/images/whispering-angel.avif",
-      "content_type": "image/avif",
-      "bytes": 30346,
-      "audit_error": null
-    },
-    {
-      "id": "jacobs-creek-chardonnay",
-      "name": "Jacob's Creek Classic Chardonnay",
-      "type": "wines",
-      "source_url": "https://cdn.metcash.media/image/upload/f_auto%2Cc_limit%2Cw_1500%2Cq_auto/igashop/images/6600933",
-      "host": "cdn.metcash.media",
-      "status": "downloaded_and_validated",
-      "local": "/images/jacobs-creek-chardonnay.jpg",
-      "content_type": "image/jpeg",
-      "bytes": 51759,
-      "audit_error": null
-    },
-    {
-      "id": "common-thread",
-      "name": "The Common Thread",
-      "type": "cocktails",
-      "source_url": "https://static.livcheers.com/static/icons/future_icons_images/52-comorin-gurgaon-product-1-20260912.webp",
-      "host": "static.livcheers.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/common-thread.webp",
-      "content_type": "image/webp",
-      "bytes": 99384,
-      "audit_error": null
-    },
-    {
-      "id": "hemus-highball",
-      "name": "Hemu's Highball",
-      "type": "cocktails",
-      "source_url": "https://static.livcheers.com/static/icons/future_icons_images/59-aabbcc-product-1-20260912.webp",
-      "host": "static.livcheers.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/hemus-highball.webp",
-      "content_type": "image/webp",
-      "bytes": 60154,
-      "audit_error": null
-    },
-    {
-      "id": "mary-me-martini",
-      "name": "Mary Me Martini",
-      "type": "cocktails",
-      "source_url": "https://static.livcheers.com/static/icons/future_icons_images/70-red-vasant-vihar-product-1-20260912.webp",
-      "host": "static.livcheers.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/mary-me-martini.webp",
-      "content_type": "image/webp",
-      "bytes": 99586,
-      "audit_error": null
-    },
-    {
-      "id": "highland-botanist",
-      "name": "The Highland Botanist",
-      "type": "cocktails",
-      "source_url": "https://static.livcheers.com/static/icons/future_icons_images/68-ophelia-delhi-product-1-20260912.webp",
-      "host": "static.livcheers.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/highland-botanist.webp",
-      "content_type": "image/webp",
-      "bytes": 97712,
-      "audit_error": null
-    },
-    {
-      "id": "bilvananda",
-      "name": "Bilvananda",
-      "type": "cocktails",
-      "source_url": "https://static.livcheers.com/static/icons/future_icons_images/51-cnd-speakeasy-product-2-20260912.webp",
-      "host": "static.livcheers.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/bilvananda.webp",
-      "content_type": "image/webp",
-      "bytes": 92866,
-      "audit_error": null
+      "host": "",
+      "status": "pending-live-check"
     },
     {
       "id": "albatross",
       "name": "Albatross",
       "type": "cocktails",
       "source_url": "https://static.livcheers.com/static/icons/future_icons_images/67-olive-bar-kitchen-delhi-product-1-20260912.webp",
-      "host": "static.livcheers.com",
-      "status": "downloaded_and_validated",
-      "local": "/images/albatross.webp",
-      "content_type": "image/webp",
-      "bytes": 97902,
-      "audit_error": null
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "amrut-fusion",
+      "name": "Amrut Fusion Single Malt",
+      "type": "products",
+      "source_url": "https://www.1855thebottleshop.com/cdn/shop/products/amrut-fusion-single-malt-whisky-700ml-bottle.jpg?crop=center&height=800&v=1755690201&width=800",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "amrut-peated",
+      "name": "Amrut Peated Indian Single Malt",
+      "type": "products",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/5bf41e2c70e8026f5a08ac41/1583017596415-0H17J3KA865FIKD1O41C/amrut-peated.jpg",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "antiquity-blue",
+      "name": "Antiquity Blue Ultra Premium Whisky",
+      "type": "products",
+      "source_url": "https://www.paulsliquor.com.au/cdn/shop/files/1087284_1.webp?v=1712772084",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "ardbeg-10",
+      "name": "Ardbeg 10 Year Old",
+      "type": "products",
+      "source_url": "https://www.whiskybrother.com/cdn/shop/products/ardbeg-10-year-old.jpg?v=1611306566",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "bacardi-carta-blanca",
+      "name": "Bacardí Carta Blanca Superior White Rum",
+      "type": "products",
+      "source_url": "https://www.drinksinc.com/cdn/shop/files/bcc97411-02d1-4dd7-8d64-dc14a57b638c.jpg?v=1763386193&width=900",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "ballantines-finest",
+      "name": "Ballantine's Finest Blended Scotch",
+      "type": "products",
+      "source_url": "https://www.continente.pt/on/demandware.static/-/Sites-col-master-catalog/default/dw78d2f8d9/images/col/205/2050153-frente.jpg",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "bilvananda",
+      "name": "Bilvananda",
+      "type": "cocktails",
+      "source_url": "https://static.livcheers.com/static/icons/future_icons_images/51-cnd-speakeasy-product-2-20260912.webp",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "bira-white",
+      "name": "Bira 91 White Ale Can",
+      "type": "products",
+      "source_url": "https://images.news18.com/static-bengali/uploads/2025/11/Bira-Beer-Image-2025-11-1a63df653c88ca8c4da1deac7e47aac3.jpg?height=620&impolicy=website&width=827",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "black-dog-triple-gold",
+      "name": "Black Dog Triple Gold Reserve",
+      "type": "products",
+      "source_url": "https://assets.gqindia.com/photos/5f5b6577de5e2aaea53dd957/master/w_1600%2Cc_limit/Black%2520Dog%2520Triple%2520Gold%2520Reserve.png",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "blenders-pride-reserve",
+      "name": "Blenders Pride Reserve Collection",
+      "type": "products",
+      "source_url": "https://www.bswliquor.com/cdn/shop/products/blenders_pride_reserve_collection_800x.png?v=1678289275",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "bud-magnum",
+      "name": "Budweiser Magnum Strong Bottle",
+      "type": "products",
+      "source_url": "https://onlinealcohol.in/storage/2020/09/Budweiser-Magnum-330-ml.jpg",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "bushmills-black-bush",
+      "name": "Bushmills Black Bush",
+      "type": "products",
+      "source_url": "https://goodpour.com/cdn/shop/files/bushmills-black-bush-irish-whiskey-750ML_1080x.png?v=1760723279",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "chivas-12",
+      "name": "Chivas Regal 12 YO",
+      "type": "products",
+      "source_url": "https://internetwines.com/cdn/shop/files/Chivas12_2023_4480x.jpg?v=1688952639",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "chivas-regal-18",
+      "name": "Chivas Regal 18 Year Old",
+      "type": "products",
+      "source_url": "https://vinosylicores.hn/cdn/shop/files/Copia_de_Website_VyL_1_1200x1200.png?v=1753112680",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "common-thread",
+      "name": "The Common Thread",
+      "type": "cocktails",
+      "source_url": "https://static.livcheers.com/static/icons/future_icons_images/52-comorin-gurgaon-product-1-20260912.webp",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "corona-extra",
+      "name": "Corona Extra Mexican Pint",
+      "type": "products",
+      "source_url": "https://godrinks.com/cdn/shop/files/CoronaExtra35.5cl.png?v=1709626396",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "gianchand",
+      "name": "GianChand Single Malt Whisky",
+      "type": "products",
+      "source_url": "https://www.paulsliquor.com.au/cdn/shop/files/GainChand-Single-malt.png?v=1717137872",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "glenfiddich-12",
+      "name": "Glenfiddich 12 YO Single Malt",
+      "type": "products",
+      "source_url": "https://www.instacart.com/assets/domains/product-image/file/large_4595f1dd-866f-4876-b275-63dd3ec06f1e.jpeg",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "glenfiddich-15",
+      "name": "Glenfiddich 15 Year Old Solera Reserve",
+      "type": "products",
+      "source_url": "https://target.scene7.com/is/image/Target/GUEST_187d4608-d757-43fc-8bd5-7cbcd8b5e23a?hei=1000&wid=1000",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "glenlivet-12",
+      "name": "The Glenlivet 12 YO Double Oak",
+      "type": "products",
+      "source_url": "https://paneco-sg-moonshine-production.s3.ap-southeast-1.amazonaws.com/shgwi0eiuh7jaqb76x7tlw6ddvcq",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "glenlivet-15-french-oak",
+      "name": "The Glenlivet 15 Year Old French Oak Reserve",
+      "type": "products",
+      "source_url": "https://cdn11.bigcommerce.com/s-0ddlsmhg83/images/stencil/836x836/products/5648/5884/the-glenlivet-15-year-old-french-oak-speyside-single-malt__26001.1761996627.jpg?c=1",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "glenmorangie-original-10",
+      "name": "Glenmorangie The Original 10 Year Old",
+      "type": "products",
+      "source_url": "https://everydaydirect.co.uk/cdn/shop/files/glenmorainge70cl.jpg?v=1771747671",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "glenmorangie-quinta-ruban-14",
+      "name": "Glenmorangie The Quinta Ruban 14 Year Old",
+      "type": "products",
+      "source_url": "https://camperdowncellars.com.au/cdn/shop/files/Glenmorangie-The-Quinta-Ruban-14YO-700ml-Bayfields-Liquor-Superstore_clipped_rev_1_1308x.png?v=1747034116",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "godawan-01",
+      "name": "Godawan 01 Rich & Rounded",
+      "type": "products",
+      "source_url": "https://s3.me-central-1.amazonaws.com/catalog.citydrinks.com/offers/3c881fa6-5ab8-434c-aeb0-ddc87bcc9d1e_thumb.webp",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "godawan-02",
+      "name": "Godawan 02 Fruit & Spice",
+      "type": "products",
+      "source_url": "https://cdn.store-assets.com/s/265524/i/67201257.png?width=480",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "greater-than",
+      "name": "Greater Than London Dry Gin",
+      "type": "products",
+      "source_url": "https://www.paulsliquor.com.au/cdn/shop/products/greater-than-london-dry-gin.jpg?v=1669087955",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "grey-goose",
+      "name": "Grey Goose French Vodka",
+      "type": "products",
+      "source_url": "https://www.eightpm.co.nz/cdn/shop/products/grey-goose-premium-vodka-700ml-681944.jpg?v=1624199749",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "hemus-highball",
+      "name": "Hemu's Highball",
+      "type": "cocktails",
+      "source_url": "https://static.livcheers.com/static/icons/future_icons_images/59-aabbcc-product-1-20260912.webp",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "hendricks-gin",
+      "name": "Hendrick's Scottish Small Batch Gin",
+      "type": "products",
+      "source_url": "https://mrliquor.com.au/cdn/shop/products/Hendrick_s_Gin_700mL-1.jpg?v=1573617605",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "highland-botanist",
+      "name": "The Highland Botanist",
+      "type": "cocktails",
+      "source_url": "https://static.livcheers.com/static/icons/future_icons_images/68-ophelia-delhi-product-1-20260912.webp",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "hoegaarden",
+      "name": "Hoegaarden Witbier Pint",
+      "type": "products",
+      "source_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-720201-0201629368-lCKDV670.jpg",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "indri-trini",
+      "name": "Indri Trini Single Malt",
+      "type": "products",
+      "source_url": "https://londonspiritscompetition.com/cont/competitionSubmissions/imagePot/LondonSpiritsCompetition-02102022032809000000-6204daa99e8e5.jpg",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "jack-daniels",
+      "name": "Jack Daniel's Old No. 7 Tennessee",
+      "type": "products",
+      "source_url": "https://www.bestwaywholesale.co.uk/img/products/1000/8/5099873089798.jpg",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "jacobs-creek-chardonnay",
+      "name": "Jacob's Creek Classic Chardonnay",
+      "type": "wines",
+      "source_url": "https://cdn.metcash.media/image/upload/f_auto%2Cc_limit%2Cw_1500%2Cq_auto/igashop/images/6600933",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "jaisalmer-gin",
+      "name": "Jaisalmer Indian Craft Gin",
+      "type": "products",
+      "source_url": "https://m.media-amazon.com/images/I/61mI0%2BFo1kL._AC_SL1500_.jpg",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "jameson",
+      "name": "Jameson Triple Distilled Irish Whiskey",
+      "type": "products",
+      "source_url": "https://www.vlastni-etikety.cz/design/labels/galerie/jameson_3.jpg",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "jameson-black-barrel",
+      "name": "Jameson Black Barrel Irish Whiskey",
+      "type": "products",
+      "source_url": "https://cdn11.bigcommerce.com/s-4nzgid62dq/images/stencil/1280x1280/attribute_rule_images/3386_source_1711502447.png",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "jim-beam-white",
+      "name": "Jim Beam Kentucky Straight Bourbon",
+      "type": "products",
+      "source_url": "https://drinky.ch/cdn/shop/files/drinky_produkte_bilder_jim_beam_bourbon_whiskey_einzelflasche.jpg?v=1718983044",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "jw-black",
+      "name": "Johnnie Walker Black Label 12 YO",
+      "type": "products",
+      "source_url": "https://images.ctfassets.net/waruwpig3jxu/55BPOqOreCU44edDswoigY/153eae9e783bce07830134d161a349b3/black-750ml_producthero_fullfront_desktop.webp?q=80&w=2560",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "kf-ultra",
+      "name": "Kingfisher Ultra Smooth Lager",
+      "type": "products",
+      "source_url": "https://boozeexpress.com.au/cdn/shop/files/KingfisherUltraPremiumIndianLagerBeerBottles650mL.png?v=1772318650",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "laphroaig-10",
+      "name": "Laphroaig 10 Year Old",
+      "type": "products",
+      "source_url": "https://spiritory.com/_next/image?q=85&url=https%3A%2F%2Fdataspiritory.b-cdn.net%2Fassets_new%2Fimages%2Fskus%2Fwhisky%2Flaphroaig-10-years-old-206095.webp&w=3840",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "macallan-12",
+      "name": "The Macallan Double Cask 12 YO",
+      "type": "products",
+      "source_url": "https://brand-assets.edrington.com/transform/7020a501-9c82-47e3-b0df-03faaa2e40a2/MAC-2023-Double-Cask-12YO-Bottle--70cl-RGB-WEB-initial?io=transform%3Afit%2Cwidth%3A599%2Cheight%3A599&quality=100",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "makers-mark",
+      "name": "Maker's Mark Handmade Bourbon",
+      "type": "products",
+      "source_url": "https://woodencork.com/cdn/shop/products/00085246139431_C1N1_en-US0927_s01.jpg?v=1679527951",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "mary-me-martini",
+      "name": "Mary Me Martini",
+      "type": "cocktails",
+      "source_url": "https://static.livcheers.com/static/icons/future_icons_images/70-red-vasant-vihar-product-1-20260912.webp",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "moet-chandon-brut",
+      "name": "Moët & Chandon Impérial Brut",
+      "type": "wines",
+      "source_url": "https://bevmo.com/cdn/shop/files/57f58993-4b15-4c44-bdcd-2878e8801ff8-padded.png?v=1765396868",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "monkey-shoulder",
+      "name": "Monkey Shoulder Blended Malt",
+      "type": "products",
+      "source_url": "https://static.maxi.rs/medias/sys_master/products/h8b/he5/9243860762654.jpg?buildNumber=7314f1c628b31db1405f1b35130f0cc5c045b6859f4cb8a9cf45d1646bf42030",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "old-monk-legend",
+      "name": "Old Monk The Legend Dark Rum",
+      "type": "products",
+      "source_url": "https://globalspirits.co.nz/cdn/shop/products/0029157_old-monk-the-legend-rum-1-ltr_grande.jpg?v=1662800695",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "patron-silver",
+      "name": "Patrón Silver 100% Blue Weber Tequila",
+      "type": "products",
+      "source_url": "https://cdn.shopify.com/s/files/1/0099/0045/8042/files/2025_bottle_silver-mjllDTu1sqOB5b.jpg?v=1770993338",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "paul-john-brilliance",
+      "name": "Paul John Brilliance Single Malt",
+      "type": "products",
+      "source_url": "https://www.theboozeoutlet.com/cdn/shop/products/medium-_750x750_cb9e9b26-1b92-46c2-9f86-7e98220b881d.png?v=1708399285",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "paul-john-edited",
+      "name": "Paul John Edited Single Malt",
+      "type": "products",
+      "source_url": "https://d1q9atv66skeoi.cloudfront.net/image/961033245606/image_ret5pd6c995en0j5g42gd24h44/-S1920x1920-FWEBP",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "rampur-asava",
+      "name": "Rampur Asava Indian Single Malt",
+      "type": "products",
+      "source_url": "https://cdn.prod2.whisky.fr/media/lmdw/lmdw_large/58373_14_m73459___449be742416b5351.webp",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "rampur-dc",
+      "name": "Rampur Double Cask Single Malt",
+      "type": "products",
+      "source_url": "https://cdn11.bigcommerce.com/s-0ddlsmhg83/images/stencil/original/products/2352/2576/rampur-double-cask-indian-single-malt-whisky__00405.1752495277.1280.1280__33148.1755241711.jpg?c=1",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "royal-stag-barrel-select",
+      "name": "Royal Stag Barrel Select",
+      "type": "products",
+      "source_url": "https://www.bswliquor.com/cdn/shop/products/royal_stag_barrel_select_800x.png?v=1678290568",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "stranger-sons",
+      "name": "Stranger & Sons Indian Spirited Gin",
+      "type": "products",
+      "source_url": "https://www.theginguild.com/wp-content/uploads/2020/11/stranger-and-sons-indian-spirited-gin.jpg",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "sula-dindori-shiraz",
+      "name": "Sula Dindori Reserve Shiraz",
+      "type": "wines",
+      "source_url": "https://cf.shopee.sg/file/c45edb0c19bf70ea14b0d3a8a80d6183",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "talisker-10",
+      "name": "Talisker 10 YO Single Malt",
+      "type": "products",
+      "source_url": "https://www.finescottishhampers.com/image_resize/back/w1500/products/502/71PfYLlDUoL.ACSL1500.jpg",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "whispering-angel",
+      "name": "Château d'Esclans Whispering Angel",
+      "type": "wines",
+      "source_url": "https://www.costco.co.uk/medias/sys_master/images/hb0/hee/312484953751582.jpg",
+      "host": "",
+      "status": "pending-live-check"
+    },
+    {
+      "id": "woodburns-contemporary",
+      "name": "Woodburns Contemporary Indian Whisky",
+      "type": "products",
+      "source_url": "https://assets.gqindia.com/photos/61813a44191527f61d8447cd/1%3A1/w_1080%2Ch_1080%2Cc_limit/indian-whisky%20%281%29.jpg",
+      "host": "",
+      "status": "pending-live-check"
     }
-  ],
-  "checkedAt": "2026-11-15T21:22:50.952Z"
+  ]
 }
