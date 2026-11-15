@@ -1,22 +1,22 @@
 {
   "products": [
     {
-      "id": "indri-trini",
-      "name": "Indri Trini Single Malt",
-      "brand": "Indri",
+      "id": "absolut-vodka",
+      "name": "Absolut Original Swedish Vodka",
+      "brand": "Absolut",
       "volume": "750ML",
-      "rating": 4.8,
-      "subcategory": "Made in India Single Malts",
-      "origin": "Haryana, India",
-      "abv": "46%",
-      "badge": "Three Wood Award",
-      "image": "/images/indri-trini.jpg",
-      "tastingNotes": "Matured in Ex-Bourbon, Ex-Wine, and PX Sherry casks in Indri, Haryana. Notes of caramelized pineapple, vanilla, black tea, and sweet raisins.",
+      "rating": "4.7",
+      "subcategory": "Vodka & Rum",
+      "origin": "Åhus, Sweden",
+      "abv": "40%",
+      "badge": "Zero Added Sugar",
+      "image": "https://assets.iceland.co.uk/i/iceland/absolut_original_swedish_vodka_70cl_71748_T1.jpg",
+      "tastingNotes": "Continuous distillation using winter wheat and deep well water in Åhus. Rich, full-bodied grain character with dried fruit hints.",
       "prices": {
-        "Gurgaon": 3100,
-        "Delhi": 3700,
-        "Noida": 3400,
-        "Jaipur": 3600
+        "Delhi": 1950,
+        "Noida": 1900,
+        "Jaipur": 2150,
+        "Gurgaon": 1500
       }
     },
     {
@@ -24,189 +24,79 @@
       "name": "Amrut Fusion Single Malt",
       "brand": "Amrut",
       "volume": "750ML",
-      "rating": 4.9,
+      "rating": "4.9",
       "subcategory": "Made in India Single Malts",
       "origin": "Bengaluru, India",
       "abv": "50%",
       "badge": "50% ABV Legend",
-      "image": "/images/amrut-fusion.webp",
+      "image": "https://www.1855thebottleshop.com/cdn/shop/products/amrut-fusion-single-malt-whisky-700ml-bottle.jpg?crop=center&height=800&v=1755690201&width=800",
       "tastingNotes": "Distilled from a fusion of Indian six-row barley and peated Scottish barley. Rich oak, dark chocolate fudge, and warm peat smoke.",
       "prices": {
-        "Gurgaon": 3800,
         "Delhi": 4350,
         "Noida": 4100,
-        "Jaipur": 4500
+        "Jaipur": 4500,
+        "Gurgaon": 3800
       }
     },
     {
-      "id": "rampur-dc",
-      "name": "Rampur Double Cask Single Malt",
-      "brand": "Rampur",
-      "volume": "750ML",
-      "rating": 4.8,
-      "subcategory": "Made in India Single Malts",
-      "origin": "Uttar Pradesh, India",
-      "abv": "45%",
-      "badge": "Luxury Reserve",
-      "image": "/images/rampur-dc.jpg",
-      "tastingNotes": "Handcrafted in the Himalayan foothills using American Bourbon barrels and European Oak Sherry casks. Tropical fruit and spiced oak.",
-      "prices": {
-        "Gurgaon": 6500,
-        "Delhi": 7210,
-        "Noida": 6900,
-        "Jaipur": 7400
-      }
+      "id": "amrut-peated",
+      "name": "Amrut Peated Indian Single Malt",
+      "brand": "Amrut",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Indian Single Malt",
+      "origin": "Bengaluru, India",
+      "abv": "46%",
+      "badge": null,
+      "image": "https://images.squarespace-cdn.com/content/v1/5bf41e2c70e8026f5a08ac41/1583017596415-0H17J3KA865FIKD1O41C/amrut-peated.jpg",
+      "tastingNotes": "A peated Indian single malt from Amrut Distilleries.",
+      "prices": {}
     },
     {
-      "id": "gianchand",
-      "name": "GianChand Single Malt Whisky",
-      "brand": "DeVans",
-      "volume": "750ML",
-      "rating": 4.7,
-      "subcategory": "Made in India Single Malts",
-      "origin": "Jammu, India",
+      "id": "antiquity-blue",
+      "name": "Antiquity Blue Ultra Premium Whisky",
+      "brand": "Antiquity Blue",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Indian Blended Whisky",
+      "origin": "India",
       "abv": "42.8%",
-      "badge": "Himalayan Malt",
-      "image": "/images/gianchand.webp",
-      "tastingNotes": "Crafted in Jammu with pristine Himalayan water. Delicate pineapple candy drop sweetness, vanilla backbone, and subtle barley oil.",
-      "prices": {
-        "Gurgaon": 3600,
-        "Delhi": 4490,
-        "Noida": 4200,
-        "Jaipur": 4600
-      }
+      "badge": null,
+      "image": "https://www.paulsliquor.com.au/cdn/shop/files/1087284_1.webp?v=1712772084",
+      "tastingNotes": "An Indian blended whisky from the Antiquity range.",
+      "prices": {}
     },
     {
-      "id": "glenfiddich-12",
-      "name": "Glenfiddich 12 YO Single Malt",
-      "brand": "Glenfiddich",
-      "volume": "750ML",
-      "rating": 4.8,
+      "id": "ardbeg-10",
+      "name": "Ardbeg 10 Year Old",
+      "brand": "Ardbeg",
+      "volume": "700ML",
+      "rating": null,
       "subcategory": "Single Malt",
-      "origin": "Speyside, Scotland",
-      "abv": "40%",
-      "badge": "Valley of the Deer",
-      "image": "/images/glenfiddich-12.jpg",
-      "tastingNotes": "Matured in Oloroso sherry and bourbon oak casks for 12 years. Fresh pear, butterscotch, cream, and subtle oak.",
-      "prices": {
-        "Gurgaon": 3800,
-        "Delhi": 4750,
-        "Noida": 4600,
-        "Jaipur": 5200
-      }
+      "origin": "Islay, Scotland",
+      "abv": "46%",
+      "badge": null,
+      "image": "https://www.whiskybrother.com/cdn/shop/products/ardbeg-10-year-old.jpg?v=1611306566",
+      "tastingNotes": "An Islay single malt with a bold peat-smoke profile.",
+      "prices": {}
     },
     {
-      "id": "glenlivet-12",
-      "name": "The Glenlivet 12 YO Double Oak",
-      "brand": "The Glenlivet",
+      "id": "bacardi-carta-blanca",
+      "name": "Bacardí Carta Blanca Superior White Rum",
+      "brand": "Bacardí",
       "volume": "750ML",
-      "rating": 4.8,
-      "subcategory": "Single Malt",
-      "origin": "Speyside, Scotland",
-      "abv": "40%",
-      "badge": "Speyside Benchmark",
-      "image": "/images/glenlivet-12.jpg",
-      "tastingNotes": "Smooth floral aroma with bright summer citrus, roasted hazelnut, and sweet vanilla custard.",
+      "rating": "4.6",
+      "subcategory": "Vodka & Rum",
+      "origin": "Puerto Rico / India",
+      "abv": "42.8%",
+      "badge": "Mojito Essential",
+      "image": "https://www.drinksinc.com/cdn/shop/files/bcc97411-02d1-4dd7-8d64-dc14a57b638c.jpg?v=1763386193&width=900",
+      "tastingNotes": "Aged in American white oak barrels and shaped through a secret blend of charcoal for floral, vanilla, and citrus cocktail perfection.",
       "prices": {
-        "Gurgaon": 3700,
-        "Delhi": 4650,
-        "Noida": 4500,
-        "Jaipur": 5100
-      }
-    },
-    {
-      "id": "macallan-12",
-      "name": "The Macallan Double Cask 12 YO",
-      "brand": "The Macallan",
-      "volume": "750ML",
-      "rating": 4.9,
-      "subcategory": "Single Malt",
-      "origin": "Speyside, Scotland",
-      "abv": "40%",
-      "badge": "Collector Favourite",
-      "image": "/images/macallan-12.avif",
-      "tastingNotes": "Harmonious marriage of American and European Oloroso sherry-seasoned oak casks. Honeyed ginger, citrus marmalade, and sultanas.",
-      "prices": {
-        "Gurgaon": 7200,
-        "Delhi": 8900,
-        "Noida": 8400,
-        "Jaipur": 9200
-      }
-    },
-    {
-      "id": "talisker-10",
-      "name": "Talisker 10 YO Single Malt",
-      "brand": "Talisker",
-      "volume": "750ML",
-      "rating": 4.8,
-      "subcategory": "Single Malt",
-      "origin": "Isle of Skye, Scotland",
-      "abv": "45.8%",
-      "badge": "Maritime Peat",
-      "image": "/images/talisker-10.webp",
-      "tastingNotes": "Made by the sea on the Isle of Skye. Powerful coastal sea-salt spray, cracked black pepper, and sweet orchard smoke.",
-      "prices": {
-        "Gurgaon": 3900,
-        "Delhi": 4800,
-        "Noida": 4650,
-        "Jaipur": 5150
-      }
-    },
-    {
-      "id": "jw-black",
-      "name": "Johnnie Walker Black Label 12 YO",
-      "brand": "Johnnie Walker",
-      "volume": "750ML",
-      "rating": 4.8,
-      "subcategory": "Blended Scotch",
-      "origin": "Scotland",
-      "abv": "40%",
-      "badge": "All-Time Favourite",
-      "image": "/images/jw-black.webp",
-      "tastingNotes": "Iconic 12-year aged blend of whiskies from all four corners of Scotland bursting with dark fruits, sweet vanilla, and signature peat smoke.",
-      "prices": {
-        "Gurgaon": 2800,
-        "Delhi": 3350,
-        "Noida": 3110,
-        "Jaipur": 3820
-      }
-    },
-    {
-      "id": "monkey-shoulder",
-      "name": "Monkey Shoulder Blended Malt",
-      "brand": "Monkey Shoulder",
-      "volume": "750ML",
-      "rating": 4.9,
-      "subcategory": "Blended Scotch",
-      "origin": "Scotland",
-      "abv": "40%",
-      "badge": "100% Malt Whisky",
-      "image": "/images/monkey-shoulder.avif",
-      "tastingNotes": "Small-batch blend of prized Speyside single malts matured in first-fill ex-Bourbon barrels. Zesty orange, mellow vanilla, and spiced oak.",
-      "prices": {
-        "Gurgaon": 3000,
-        "Delhi": 3950,
-        "Noida": 3750,
-        "Jaipur": 4200
-      }
-    },
-    {
-      "id": "chivas-12",
-      "name": "Chivas Regal 12 YO",
-      "brand": "Chivas Regal",
-      "volume": "750ML",
-      "rating": 4.7,
-      "subcategory": "Blended Scotch",
-      "origin": "Scotland",
-      "abv": "40%",
-      "badge": "Pour Lineup",
-      "image": "/images/chivas-12.webp",
-      "tastingNotes": "Cask-matured Speyside richness with wild herbs, heather honey, creamy butterscotch, and orchard apples.",
-      "prices": {
-        "Gurgaon": 2600,
-        "Delhi": 2950,
-        "Noida": 2800,
-        "Jaipur": 3100
+        "Delhi": 980,
+        "Noida": 1020,
+        "Jaipur": 1120,
+        "Gurgaon": 800
       }
     },
     {
@@ -214,208 +104,18 @@
       "name": "Ballantine's Finest Blended Scotch",
       "brand": "Ballantine's",
       "volume": "750ML",
-      "rating": 4.6,
+      "rating": "4.6",
       "subcategory": "Blended Scotch",
       "origin": "Scotland",
       "abv": "40%",
       "badge": "Party Essential",
-      "image": "/images/ballantines-finest.jpg",
+      "image": "https://www.continente.pt/on/demandware.static/-/Sites-col-master-catalog/default/dw78d2f8d9/images/col/205/2050153-frente.jpg",
       "tastingNotes": "Refined, balanced blend with light heather honey, milk chocolate, red apple, and vanilla finish.",
       "prices": {
-        "Gurgaon": 1350,
         "Delhi": 1750,
         "Noida": 1890,
-        "Jaipur": 2050
-      }
-    },
-    {
-      "id": "jameson",
-      "name": "Jameson Triple Distilled Irish Whiskey",
-      "brand": "Jameson",
-      "volume": "750ML",
-      "rating": 4.8,
-      "subcategory": "Irish Whiskey",
-      "origin": "Dublin, Ireland",
-      "abv": "40%",
-      "badge": "Triple Distilled",
-      "image": "/images/jameson.jpg",
-      "tastingNotes": "Triple-distilled Irish pot still and fine grain whiskey. Light floral fragrance peppered with spicy wood and sweet sherry nuttiness.",
-      "prices": {
-        "Gurgaon": 1900,
-        "Delhi": 2150,
-        "Noida": 2300,
-        "Jaipur": 2460
-      }
-    },
-    {
-      "id": "jack-daniels",
-      "name": "Jack Daniel's Old No. 7 Tennessee",
-      "brand": "Jack Daniel's",
-      "volume": "750ML",
-      "rating": 4.8,
-      "subcategory": "Bourbon",
-      "origin": "Tennessee, USA",
-      "abv": "40%",
-      "badge": "Charcoal Mellowed",
-      "image": "/images/jack-daniels.jpg",
-      "tastingNotes": "Mellowed drop by drop through 10 feet of sugar maple charcoal. Smooth caramel, toasted oak, banana, and smoky vanilla.",
-      "prices": {
-        "Gurgaon": 2500,
-        "Delhi": 3100,
-        "Noida": 2950,
-        "Jaipur": 3350
-      }
-    },
-    {
-      "id": "jim-beam-white",
-      "name": "Jim Beam Kentucky Straight Bourbon",
-      "brand": "Jim Beam",
-      "volume": "750ML",
-      "rating": 4.6,
-      "subcategory": "Bourbon",
-      "origin": "Kentucky, USA",
-      "abv": "40%",
-      "badge": "World #1 Bourbon",
-      "image": "/images/jim-beam-white.webp",
-      "tastingNotes": "Aged 4 years in newly charred American white oak barrels. Oaky vanilla aroma with medium-bodied caramel and sweet corn warmth.",
-      "prices": {
-        "Gurgaon": 1750,
-        "Delhi": 2200,
-        "Noida": 2100,
-        "Jaipur": 2350
-      }
-    },
-    {
-      "id": "makers-mark",
-      "name": "Maker's Mark Handmade Bourbon",
-      "brand": "Maker's Mark",
-      "volume": "750ML",
-      "rating": 4.8,
-      "subcategory": "Bourbon",
-      "origin": "Kentucky, USA",
-      "abv": "45%",
-      "badge": "Red Wax Seal",
-      "image": "/images/makers-mark.webp",
-      "tastingNotes": "Crafted with soft red winter wheat instead of rye for a zero-bitterness palate bursting with butterscotch, woody oak, and vanilla.",
-      "prices": {
-        "Gurgaon": 3400,
-        "Delhi": 4250,
-        "Noida": 4050,
-        "Jaipur": 4450
-      }
-    },
-    {
-      "id": "greater-than",
-      "name": "Greater Than London Dry Gin",
-      "brand": "Nao Spirits",
-      "volume": "750ML",
-      "rating": 4.7,
-      "subcategory": "Craft Gin",
-      "origin": "Goa, India",
-      "abv": "40%",
-      "badge": "India First Craft Gin",
-      "image": "/images/greater-than.webp",
-      "tastingNotes": "Distilled in a copper pot still in Goa with 9 botanicals including juniper, lemongrass, ginger, and chamomile. Clean citrus zing.",
-      "prices": {
-        "Gurgaon": 1050,
-        "Delhi": 1300,
-        "Noida": 1380,
-        "Jaipur": 1500
-      }
-    },
-    {
-      "id": "stranger-sons",
-      "name": "Stranger & Sons Indian Spirited Gin",
-      "brand": "Third Eye Distillery",
-      "volume": "750ML",
-      "rating": 4.8,
-      "subcategory": "Craft Gin",
-      "origin": "Goa, India",
-      "abv": "42.8%",
-      "badge": "3D Citrus Peel",
-      "image": "/images/stranger-sons.jpg",
-      "tastingNotes": "Bold botanical chorus of Gondhoraj limes, Nagpur oranges, nimble limes, black pepper, nutmeg, and coriander seed.",
-      "prices": {
-        "Gurgaon": 1650,
-        "Delhi": 2050,
-        "Noida": 1980,
-        "Jaipur": 2250
-      }
-    },
-    {
-      "id": "jaisalmer-gin",
-      "name": "Jaisalmer Indian Craft Gin",
-      "brand": "Radico Khaitan",
-      "volume": "750ML",
-      "rating": 4.8,
-      "subcategory": "Craft Gin",
-      "origin": "Uttar Pradesh, India",
-      "abv": "42.8%",
-      "badge": "Royal Oasis Gin",
-      "image": "/images/jaisalmer-gin.jpg",
-      "tastingNotes": "Infused with 11 botanicals including Darjeeling green tea leaves, vetiver, sweet orange peel, cubeb berries, and lemongrass.",
-      "prices": {
-        "Gurgaon": 3100,
-        "Delhi": 3850,
-        "Noida": 3600,
-        "Jaipur": 4000
-      }
-    },
-    {
-      "id": "hendricks-gin",
-      "name": "Hendrick's Scottish Small Batch Gin",
-      "brand": "Hendrick's",
-      "volume": "750ML",
-      "rating": 4.9,
-      "subcategory": "Craft Gin",
-      "origin": "Girvan, Scotland",
-      "abv": "41.4%",
-      "badge": "Rose & Cucumber",
-      "image": "/images/hendricks-gin.webp",
-      "tastingNotes": "Unusual distillation in Bennett and Carter-Head stills infused with Bulgarian Rosa Damascena petals and refreshing cucumber.",
-      "prices": {
-        "Gurgaon": 3600,
-        "Delhi": 4550,
-        "Noida": 4400,
-        "Jaipur": 4900
-      }
-    },
-    {
-      "id": "corona-extra",
-      "name": "Corona Extra Mexican Pint",
-      "brand": "Corona",
-      "volume": "330ML",
-      "rating": 4.8,
-      "subcategory": "Beers",
-      "origin": "Mexico / India",
-      "abv": "4.5%",
-      "badge": "Serve with Lime",
-      "image": "/images/corona-extra.webp",
-      "tastingNotes": "Crisp, sun-drenched pale lager with light honey-malt sweetness and refreshing hop character.",
-      "prices": {
-        "Gurgaon": 160,
-        "Delhi": 210,
-        "Noida": 200,
-        "Jaipur": 230
-      }
-    },
-    {
-      "id": "hoegaarden",
-      "name": "Hoegaarden Witbier Pint",
-      "brand": "Hoegaarden",
-      "volume": "330ML",
-      "rating": 4.9,
-      "subcategory": "Beers",
-      "origin": "Belgium",
-      "abv": "4.9%",
-      "badge": "Belgian Wheat",
-      "image": "/images/hoegaarden.jpg",
-      "tastingNotes": "Unfiltered Belgian white beer brewed with Curaçao orange peel and coriander seeds for a velvety, cloud-like citrus finish.",
-      "prices": {
-        "Gurgaon": 170,
-        "Delhi": 220,
-        "Noida": 210,
-        "Jaipur": 240
+        "Jaipur": 2050,
+        "Gurgaon": 1350
       }
     },
     {
@@ -423,56 +123,291 @@
       "name": "Bira 91 White Ale Can",
       "brand": "Bira 91",
       "volume": "500ML",
-      "rating": 4.7,
+      "rating": "4.7",
       "subcategory": "Beers",
       "origin": "India",
       "abv": "4.7%",
       "badge": "Craft Wheat",
-      "image": "/images/bira-white.avif",
+      "image": "https://images.news18.com/static-bengali/uploads/2025/11/Bira-Beer-Image-2025-11-1a63df653c88ca8c4da1deac7e47aac3.jpg?height=620&impolicy=website&width=827",
       "tastingNotes": "Deliciously cloudy wheat ale with low bitterness, bright orange peel aroma, and a touch of Indian coriander.",
       "prices": {
-        "Gurgaon": 140,
         "Delhi": 160,
         "Noida": 170,
-        "Jaipur": 185
+        "Jaipur": 185,
+        "Gurgaon": 140
       }
+    },
+    {
+      "id": "black-dog-triple-gold",
+      "name": "Black Dog Triple Gold Reserve",
+      "brand": "Black Dog",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Blended Scotch",
+      "origin": "Scotland",
+      "abv": "42.8%",
+      "badge": null,
+      "image": "https://assets.gqindia.com/photos/5f5b6577de5e2aaea53dd957/master/w_1600%2Cc_limit/Black%2520Dog%2520Triple%2520Gold%2520Reserve.png",
+      "tastingNotes": "A blended Scotch whisky in the Black Dog range.",
+      "prices": {}
+    },
+    {
+      "id": "blenders-pride-reserve",
+      "name": "Blenders Pride Reserve Collection",
+      "brand": "Blenders Pride",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Indian Blended Whisky",
+      "origin": "India",
+      "abv": "42.8%",
+      "badge": null,
+      "image": "https://www.bswliquor.com/cdn/shop/products/blenders_pride_reserve_collection_800x.png?v=1678289275",
+      "tastingNotes": "An Indian premium blended whisky from the Blenders Pride range.",
+      "prices": {}
     },
     {
       "id": "bud-magnum",
       "name": "Budweiser Magnum Strong Bottle",
       "brand": "Budweiser",
       "volume": "650ML",
-      "rating": 4.7,
+      "rating": "4.7",
       "subcategory": "Beers",
       "origin": "India",
       "abv": "6.5%",
       "badge": "All-Time Favourite",
-      "image": "/images/bud-magnum.webp",
+      "image": "https://onlinealcohol.in/storage/2020/09/Budweiser-Magnum-330-ml.jpg",
       "tastingNotes": "Beechwood-aged strong super premium lager with roasted malt sweetness and crisp herbal hop balance.",
       "prices": {
-        "Gurgaon": 210,
         "Delhi": 250,
         "Noida": 240,
-        "Jaipur": 270
+        "Jaipur": 270,
+        "Gurgaon": 210
       }
     },
     {
-      "id": "kf-ultra",
-      "name": "Kingfisher Ultra Smooth Lager",
-      "brand": "Kingfisher",
-      "volume": "650ML",
-      "rating": 4.6,
-      "subcategory": "Beers",
-      "origin": "India",
-      "abv": "5%",
-      "badge": "Emperor of Good Times",
-      "image": "/images/kf-ultra.webp",
-      "tastingNotes": "Brewed from the finest imported malts and hops for a golden appearance and exceptionally crisp, smooth taste.",
+      "id": "bushmills-black-bush",
+      "name": "Bushmills Black Bush",
+      "brand": "Bushmills",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Irish Whiskey",
+      "origin": "County Antrim, Ireland",
+      "abv": "40%",
+      "badge": null,
+      "image": "https://goodpour.com/cdn/shop/files/bushmills-black-bush-irish-whiskey-750ML_1080x.png?v=1760723279",
+      "tastingNotes": "An Irish whiskey blend with a prominent sherry-cask component.",
+      "prices": {}
+    },
+    {
+      "id": "chivas-12",
+      "name": "Chivas Regal 12 YO",
+      "brand": "Chivas Regal",
+      "volume": "750ML",
+      "rating": "4.7",
+      "subcategory": "Blended Scotch",
+      "origin": "Scotland",
+      "abv": "40%",
+      "badge": "Pour Lineup",
+      "image": "https://internetwines.com/cdn/shop/files/Chivas12_2023_4480x.jpg?v=1688952639",
+      "tastingNotes": "Cask-matured Speyside richness with wild herbs, heather honey, creamy butterscotch, and orchard apples.",
       "prices": {
-        "Gurgaon": 190,
-        "Delhi": 225,
-        "Noida": 220,
-        "Jaipur": 250
+        "Delhi": 2950,
+        "Noida": 2800,
+        "Jaipur": 3100,
+        "Gurgaon": 2600
+      }
+    },
+    {
+      "id": "chivas-regal-18",
+      "name": "Chivas Regal 18 Year Old",
+      "brand": "Chivas Regal",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Blended Scotch",
+      "origin": "Scotland",
+      "abv": "40%",
+      "badge": null,
+      "image": "https://vinosylicores.hn/cdn/shop/files/Copia_de_Website_VyL_1_1200x1200.png?v=1753112680",
+      "tastingNotes": "An 18-year blended Scotch whisky with a rich, layered style.",
+      "prices": {}
+    },
+    {
+      "id": "corona-extra",
+      "name": "Corona Extra Mexican Pint",
+      "brand": "Corona",
+      "volume": "330ML",
+      "rating": "4.8",
+      "subcategory": "Beers",
+      "origin": "Mexico / India",
+      "abv": "4.5%",
+      "badge": "Serve with Lime",
+      "image": "https://godrinks.com/cdn/shop/files/CoronaExtra35.5cl.png?v=1709626396",
+      "tastingNotes": "Crisp, sun-drenched pale lager with light honey-malt sweetness and refreshing hop character.",
+      "prices": {
+        "Delhi": 210,
+        "Noida": 200,
+        "Jaipur": 230,
+        "Gurgaon": 160
+      }
+    },
+    {
+      "id": "gianchand",
+      "name": "GianChand Single Malt Whisky",
+      "brand": "DeVans",
+      "volume": "750ML",
+      "rating": "4.7",
+      "subcategory": "Made in India Single Malts",
+      "origin": "Jammu, India",
+      "abv": "42.8%",
+      "badge": "Himalayan Malt",
+      "image": "https://www.paulsliquor.com.au/cdn/shop/files/GainChand-Single-malt.png?v=1717137872",
+      "tastingNotes": "Crafted in Jammu with pristine Himalayan water. Delicate pineapple candy drop sweetness, vanilla backbone, and subtle barley oil.",
+      "prices": {
+        "Delhi": 4490,
+        "Noida": 4200,
+        "Jaipur": 4600,
+        "Gurgaon": 3600
+      }
+    },
+    {
+      "id": "glenfiddich-12",
+      "name": "Glenfiddich 12 YO Single Malt",
+      "brand": "Glenfiddich",
+      "volume": "750ML",
+      "rating": "4.8",
+      "subcategory": "Single Malt",
+      "origin": "Speyside, Scotland",
+      "abv": "40%",
+      "badge": "Valley of the Deer",
+      "image": "https://www.instacart.com/assets/domains/product-image/file/large_4595f1dd-866f-4876-b275-63dd3ec06f1e.jpeg",
+      "tastingNotes": "Matured in Oloroso sherry and bourbon oak casks for 12 years. Fresh pear, butterscotch, cream, and subtle oak.",
+      "prices": {
+        "Delhi": 4750,
+        "Noida": 4600,
+        "Jaipur": 5200,
+        "Gurgaon": 3800
+      }
+    },
+    {
+      "id": "glenfiddich-15",
+      "name": "Glenfiddich 15 Year Old Solera Reserve",
+      "brand": "Glenfiddich",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Single Malt",
+      "origin": "Speyside, Scotland",
+      "abv": "40%",
+      "badge": null,
+      "image": "https://target.scene7.com/is/image/Target/GUEST_187d4608-d757-43fc-8bd5-7cbcd8b5e23a?hei=1000&wid=1000",
+      "tastingNotes": "A 15-year Speyside single malt matured using the Solera process.",
+      "prices": {}
+    },
+    {
+      "id": "glenlivet-12",
+      "name": "The Glenlivet 12 YO Double Oak",
+      "brand": "The Glenlivet",
+      "volume": "750ML",
+      "rating": "4.8",
+      "subcategory": "Single Malt",
+      "origin": "Speyside, Scotland",
+      "abv": "40%",
+      "badge": "Speyside Benchmark",
+      "image": "https://paneco-sg-moonshine-production.s3.ap-southeast-1.amazonaws.com/shgwi0eiuh7jaqb76x7tlw6ddvcq",
+      "tastingNotes": "Smooth floral aroma with bright summer citrus, roasted hazelnut, and sweet vanilla custard.",
+      "prices": {
+        "Delhi": 4650,
+        "Noida": 4500,
+        "Jaipur": 5100,
+        "Gurgaon": 3700
+      }
+    },
+    {
+      "id": "glenlivet-15-french-oak",
+      "name": "The Glenlivet 15 Year Old French Oak Reserve",
+      "brand": "The Glenlivet",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Single Malt",
+      "origin": "Speyside, Scotland",
+      "abv": "40%",
+      "badge": null,
+      "image": "https://cdn11.bigcommerce.com/s-0ddlsmhg83/images/stencil/836x836/products/5648/5884/the-glenlivet-15-year-old-french-oak-speyside-single-malt__26001.1761996627.jpg?c=1",
+      "tastingNotes": "A Speyside single malt matured with French oak cask influence.",
+      "prices": {}
+    },
+    {
+      "id": "glenmorangie-original-10",
+      "name": "Glenmorangie The Original 10 Year Old",
+      "brand": "Glenmorangie",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Single Malt",
+      "origin": "Highlands, Scotland",
+      "abv": "40%",
+      "badge": null,
+      "image": "https://everydaydirect.co.uk/cdn/shop/files/glenmorainge70cl.jpg?v=1771747671",
+      "tastingNotes": "A Highland single malt with a light, citrus-forward house style.",
+      "prices": {}
+    },
+    {
+      "id": "glenmorangie-quinta-ruban-14",
+      "name": "Glenmorangie The Quinta Ruban 14 Year Old",
+      "brand": "Glenmorangie",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Single Malt",
+      "origin": "Highlands, Scotland",
+      "abv": "46%",
+      "badge": null,
+      "image": "https://camperdowncellars.com.au/cdn/shop/files/Glenmorangie-The-Quinta-Ruban-14YO-700ml-Bayfields-Liquor-Superstore_clipped_rev_1_1308x.png?v=1747034116",
+      "tastingNotes": "A 14-year Highland single malt finished in ruby port casks.",
+      "prices": {}
+    },
+    {
+      "id": "godawan-01",
+      "name": "Godawan 01 Rich & Rounded",
+      "brand": "Godawan",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Indian Single Malt",
+      "origin": "Rajasthan, India",
+      "abv": "46%",
+      "badge": null,
+      "image": "https://s3.me-central-1.amazonaws.com/catalog.citydrinks.com/offers/3c881fa6-5ab8-434c-aeb0-ddc87bcc9d1e_thumb.webp",
+      "tastingNotes": "An Indian single malt from Rajasthan with a rich, rounded style.",
+      "prices": {}
+    },
+    {
+      "id": "godawan-02",
+      "name": "Godawan 02 Fruit & Spice",
+      "brand": "Godawan",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Indian Single Malt",
+      "origin": "Rajasthan, India",
+      "abv": "46%",
+      "badge": null,
+      "image": "https://cdn.store-assets.com/s/265524/i/67201257.png?width=480",
+      "tastingNotes": "An Indian single malt from Rajasthan with a fruit-and-spice-led style.",
+      "prices": {}
+    },
+    {
+      "id": "greater-than",
+      "name": "Greater Than London Dry Gin",
+      "brand": "Nao Spirits",
+      "volume": "750ML",
+      "rating": "4.7",
+      "subcategory": "Craft Gin",
+      "origin": "Goa, India",
+      "abv": "40%",
+      "badge": "India First Craft Gin",
+      "image": "https://www.paulsliquor.com.au/cdn/shop/products/greater-than-london-dry-gin.jpg?v=1669087955",
+      "tastingNotes": "Distilled in a copper pot still in Goa with 9 botanicals including juniper, lemongrass, ginger, and chamomile. Clean citrus zing.",
+      "prices": {
+        "Delhi": 1300,
+        "Noida": 1380,
+        "Jaipur": 1500,
+        "Gurgaon": 1050
       }
     },
     {
@@ -480,37 +415,274 @@
       "name": "Grey Goose French Vodka",
       "brand": "Grey Goose",
       "volume": "750ML",
-      "rating": 4.9,
+      "rating": "4.9",
       "subcategory": "Vodka & Rum",
       "origin": "Cognac, France",
       "abv": "40%",
       "badge": "Ultra-Premium Vodka",
-      "image": "/images/grey-goose.webp",
+      "image": "https://www.eightpm.co.nz/cdn/shop/products/grey-goose-premium-vodka-700ml-681944.jpg?v=1624199749",
       "tastingNotes": "Distilled from soft winter wheat from Picardie and Gensac spring water. Creamy almond pastry notes and a silky, clean finish.",
       "prices": {
-        "Gurgaon": 3200,
         "Delhi": 4100,
         "Noida": 3950,
-        "Jaipur": 4400
+        "Jaipur": 4400,
+        "Gurgaon": 3200
       }
     },
     {
-      "id": "absolut-vodka",
-      "name": "Absolut Original Swedish Vodka",
-      "brand": "Absolut",
+      "id": "hendricks-gin",
+      "name": "Hendrick's Scottish Small Batch Gin",
+      "brand": "Hendrick's",
       "volume": "750ML",
-      "rating": 4.7,
-      "subcategory": "Vodka & Rum",
-      "origin": "Åhus, Sweden",
-      "abv": "40%",
-      "badge": "Zero Added Sugar",
-      "image": "/images/absolut-vodka.jpg",
-      "tastingNotes": "Continuous distillation using winter wheat and deep well water in Åhus. Rich, full-bodied grain character with dried fruit hints.",
+      "rating": "4.9",
+      "subcategory": "Craft Gin",
+      "origin": "Girvan, Scotland",
+      "abv": "41.4%",
+      "badge": "Rose & Cucumber",
+      "image": "https://mrliquor.com.au/cdn/shop/products/Hendrick_s_Gin_700mL-1.jpg?v=1573617605",
+      "tastingNotes": "Unusual distillation in Bennett and Carter-Head stills infused with Bulgarian Rosa Damascena petals and refreshing cucumber.",
       "prices": {
-        "Gurgaon": 1500,
-        "Delhi": 1950,
-        "Noida": 1900,
-        "Jaipur": 2150
+        "Delhi": 4550,
+        "Noida": 4400,
+        "Jaipur": 4900,
+        "Gurgaon": 3600
+      }
+    },
+    {
+      "id": "hoegaarden",
+      "name": "Hoegaarden Witbier Pint",
+      "brand": "Hoegaarden",
+      "volume": "330ML",
+      "rating": "4.9",
+      "subcategory": "Beers",
+      "origin": "Belgium",
+      "abv": "4.9%",
+      "badge": "Belgian Wheat",
+      "image": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-720201-0201629368-lCKDV670.jpg",
+      "tastingNotes": "Unfiltered Belgian white beer brewed with Curaçao orange peel and coriander seeds for a velvety, cloud-like citrus finish.",
+      "prices": {
+        "Delhi": 220,
+        "Noida": 210,
+        "Jaipur": 240,
+        "Gurgaon": 170
+      }
+    },
+    {
+      "id": "indri-trini",
+      "name": "Indri Trini Single Malt",
+      "brand": "Indri",
+      "volume": "750ML",
+      "rating": "4.8",
+      "subcategory": "Made in India Single Malts",
+      "origin": "Haryana, India",
+      "abv": "46%",
+      "badge": "Three Wood Award",
+      "image": "https://londonspiritscompetition.com/cont/competitionSubmissions/imagePot/LondonSpiritsCompetition-02102022032809000000-6204daa99e8e5.jpg",
+      "tastingNotes": "Matured in Ex-Bourbon, Ex-Wine, and PX Sherry casks in Indri, Haryana. Notes of caramelized pineapple, vanilla, black tea, and sweet raisins.",
+      "prices": {
+        "Delhi": 3700,
+        "Noida": 3400,
+        "Jaipur": 3600,
+        "Gurgaon": 3100
+      }
+    },
+    {
+      "id": "jack-daniels",
+      "name": "Jack Daniel's Old No. 7 Tennessee",
+      "brand": "Jack Daniel's",
+      "volume": "750ML",
+      "rating": "4.8",
+      "subcategory": "Bourbon",
+      "origin": "Tennessee, USA",
+      "abv": "40%",
+      "badge": "Charcoal Mellowed",
+      "image": "https://www.bestwaywholesale.co.uk/img/products/1000/8/5099873089798.jpg",
+      "tastingNotes": "Mellowed drop by drop through 10 feet of sugar maple charcoal. Smooth caramel, toasted oak, banana, and smoky vanilla.",
+      "prices": {
+        "Delhi": 3100,
+        "Noida": 2950,
+        "Jaipur": 3350,
+        "Gurgaon": 2500
+      }
+    },
+    {
+      "id": "jaisalmer-gin",
+      "name": "Jaisalmer Indian Craft Gin",
+      "brand": "Radico Khaitan",
+      "volume": "750ML",
+      "rating": "4.8",
+      "subcategory": "Craft Gin",
+      "origin": "Uttar Pradesh, India",
+      "abv": "42.8%",
+      "badge": "Royal Oasis Gin",
+      "image": "https://m.media-amazon.com/images/I/61mI0%2BFo1kL._AC_SL1500_.jpg",
+      "tastingNotes": "Infused with 11 botanicals including Darjeeling green tea leaves, vetiver, sweet orange peel, cubeb berries, and lemongrass.",
+      "prices": {
+        "Delhi": 3850,
+        "Noida": 3600,
+        "Jaipur": 4000,
+        "Gurgaon": 3100
+      }
+    },
+    {
+      "id": "jameson",
+      "name": "Jameson Triple Distilled Irish Whiskey",
+      "brand": "Jameson",
+      "volume": "750ML",
+      "rating": "4.8",
+      "subcategory": "Irish Whiskey",
+      "origin": "Dublin, Ireland",
+      "abv": "40%",
+      "badge": "Triple Distilled",
+      "image": "https://www.vlastni-etikety.cz/design/labels/galerie/jameson_3.jpg",
+      "tastingNotes": "Triple-distilled Irish pot still and fine grain whiskey. Light floral fragrance peppered with spicy wood and sweet sherry nuttiness.",
+      "prices": {
+        "Delhi": 2150,
+        "Noida": 2300,
+        "Jaipur": 2460,
+        "Gurgaon": 1900
+      }
+    },
+    {
+      "id": "jameson-black-barrel",
+      "name": "Jameson Black Barrel Irish Whiskey",
+      "brand": "Jameson",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Irish Whiskey",
+      "origin": "Ireland",
+      "abv": "40%",
+      "badge": null,
+      "image": "https://cdn11.bigcommerce.com/s-4nzgid62dq/images/stencil/1280x1280/attribute_rule_images/3386_source_1711502447.png",
+      "tastingNotes": "A triple-distilled Irish whiskey finished in double-charred barrels; notes include butterscotch, fudge and vanilla.",
+      "prices": {}
+    },
+    {
+      "id": "jim-beam-white",
+      "name": "Jim Beam Kentucky Straight Bourbon",
+      "brand": "Jim Beam",
+      "volume": "750ML",
+      "rating": "4.6",
+      "subcategory": "Bourbon",
+      "origin": "Kentucky, USA",
+      "abv": "40%",
+      "badge": "World #1 Bourbon",
+      "image": "https://drinky.ch/cdn/shop/files/drinky_produkte_bilder_jim_beam_bourbon_whiskey_einzelflasche.jpg?v=1718983044",
+      "tastingNotes": "Aged 4 years in newly charred American white oak barrels. Oaky vanilla aroma with medium-bodied caramel and sweet corn warmth.",
+      "prices": {
+        "Delhi": 2200,
+        "Noida": 2100,
+        "Jaipur": 2350,
+        "Gurgaon": 1750
+      }
+    },
+    {
+      "id": "jw-black",
+      "name": "Johnnie Walker Black Label 12 YO",
+      "brand": "Johnnie Walker",
+      "volume": "750ML",
+      "rating": "4.8",
+      "subcategory": "Blended Scotch",
+      "origin": "Scotland",
+      "abv": "40%",
+      "badge": "All-Time Favourite",
+      "image": "https://images.ctfassets.net/waruwpig3jxu/55BPOqOreCU44edDswoigY/153eae9e783bce07830134d161a349b3/black-750ml_producthero_fullfront_desktop.webp?q=80&w=2560",
+      "tastingNotes": "Iconic 12-year aged blend of whiskies from all four corners of Scotland bursting with dark fruits, sweet vanilla, and signature peat smoke.",
+      "prices": {
+        "Delhi": 3350,
+        "Noida": 3110,
+        "Jaipur": 3820,
+        "Gurgaon": 2800
+      }
+    },
+    {
+      "id": "kf-ultra",
+      "name": "Kingfisher Ultra Smooth Lager",
+      "brand": "Kingfisher",
+      "volume": "650ML",
+      "rating": "4.6",
+      "subcategory": "Beers",
+      "origin": "India",
+      "abv": "5%",
+      "badge": "Emperor of Good Times",
+      "image": "https://boozeexpress.com.au/cdn/shop/files/KingfisherUltraPremiumIndianLagerBeerBottles650mL.png?v=1772318650",
+      "tastingNotes": "Brewed from the finest imported malts and hops for a golden appearance and exceptionally crisp, smooth taste.",
+      "prices": {
+        "Delhi": 225,
+        "Noida": 220,
+        "Jaipur": 250,
+        "Gurgaon": 190
+      }
+    },
+    {
+      "id": "laphroaig-10",
+      "name": "Laphroaig 10 Year Old",
+      "brand": "Laphroaig",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Single Malt",
+      "origin": "Islay, Scotland",
+      "abv": "40%",
+      "badge": null,
+      "image": "https://spiritory.com/_next/image?q=85&url=https%3A%2F%2Fdataspiritory.b-cdn.net%2Fassets_new%2Fimages%2Fskus%2Fwhisky%2Flaphroaig-10-years-old-206095.webp&w=3840",
+      "tastingNotes": "An Islay single malt known for its maritime character and pronounced peat.",
+      "prices": {}
+    },
+    {
+      "id": "macallan-12",
+      "name": "The Macallan Double Cask 12 YO",
+      "brand": "The Macallan",
+      "volume": "750ML",
+      "rating": "4.9",
+      "subcategory": "Single Malt",
+      "origin": "Speyside, Scotland",
+      "abv": "40%",
+      "badge": "Collector Favourite",
+      "image": "https://brand-assets.edrington.com/transform/7020a501-9c82-47e3-b0df-03faaa2e40a2/MAC-2023-Double-Cask-12YO-Bottle--70cl-RGB-WEB-initial?io=transform%3Afit%2Cwidth%3A599%2Cheight%3A599&quality=100",
+      "tastingNotes": "Harmonious marriage of American and European Oloroso sherry-seasoned oak casks. Honeyed ginger, citrus marmalade, and sultanas.",
+      "prices": {
+        "Delhi": 8900,
+        "Noida": 8400,
+        "Jaipur": 9200,
+        "Gurgaon": 7200
+      }
+    },
+    {
+      "id": "makers-mark",
+      "name": "Maker's Mark Handmade Bourbon",
+      "brand": "Maker's Mark",
+      "volume": "750ML",
+      "rating": "4.8",
+      "subcategory": "Bourbon",
+      "origin": "Kentucky, USA",
+      "abv": "45%",
+      "badge": "Red Wax Seal",
+      "image": "https://woodencork.com/cdn/shop/products/00085246139431_C1N1_en-US0927_s01.jpg?v=1679527951",
+      "tastingNotes": "Crafted with soft red winter wheat instead of rye for a zero-bitterness palate bursting with butterscotch, woody oak, and vanilla.",
+      "prices": {
+        "Delhi": 4250,
+        "Noida": 4050,
+        "Jaipur": 4450,
+        "Gurgaon": 3400
+      }
+    },
+    {
+      "id": "monkey-shoulder",
+      "name": "Monkey Shoulder Blended Malt",
+      "brand": "Monkey Shoulder",
+      "volume": "750ML",
+      "rating": "4.9",
+      "subcategory": "Blended Scotch",
+      "origin": "Scotland",
+      "abv": "40%",
+      "badge": "100% Malt Whisky",
+      "image": "https://static.maxi.rs/medias/sys_master/products/h8b/he5/9243860762654.jpg?buildNumber=7314f1c628b31db1405f1b35130f0cc5c045b6859f4cb8a9cf45d1646bf42030",
+      "tastingNotes": "Small-batch blend of prized Speyside single malts matured in first-fill ex-Bourbon barrels. Zesty orange, mellow vanilla, and spiced oak.",
+      "prices": {
+        "Delhi": 3950,
+        "Noida": 3750,
+        "Jaipur": 4200,
+        "Gurgaon": 3000
       }
     },
     {
@@ -518,37 +690,18 @@
       "name": "Old Monk The Legend Dark Rum",
       "brand": "Mohan Meakin",
       "volume": "1000ML",
-      "rating": 4.9,
+      "rating": "4.9",
       "subcategory": "Vodka & Rum",
       "origin": "Ghaziabad, India",
       "abv": "42.8%",
       "badge": "Cult Classic",
-      "image": "/images/old-monk-legend.webp",
+      "image": "https://globalspirits.co.nz/cdn/shop/products/0029157_old-monk-the-legend-rum-1-ltr_grande.jpg?v=1662800695",
       "tastingNotes": "Iconic monk-head decanter filled with vatted dark Indian rum bursting with roasted coffee, dark caramel, vanilla, and jaggery.",
       "prices": {
-        "Gurgaon": 950,
         "Delhi": 1180,
         "Noida": 1120,
-        "Jaipur": 1290
-      }
-    },
-    {
-      "id": "bacardi-carta-blanca",
-      "name": "Bacardí Carta Blanca Superior White Rum",
-      "brand": "Bacardí",
-      "volume": "750ML",
-      "rating": 4.6,
-      "subcategory": "Vodka & Rum",
-      "origin": "Puerto Rico / India",
-      "abv": "42.8%",
-      "badge": "Mojito Essential",
-      "image": "/images/bacardi-carta-blanca.webp",
-      "tastingNotes": "Aged in American white oak barrels and shaped through a secret blend of charcoal for floral, vanilla, and citrus cocktail perfection.",
-      "prices": {
-        "Gurgaon": 800,
-        "Delhi": 980,
-        "Noida": 1020,
-        "Jaipur": 1120
+        "Jaipur": 1290,
+        "Gurgaon": 950
       }
     },
     {
@@ -556,93 +709,181 @@
       "name": "Patrón Silver 100% Blue Weber Tequila",
       "brand": "Patrón",
       "volume": "750ML",
-      "rating": 4.9,
+      "rating": "4.9",
       "subcategory": "Vodka & Rum",
       "origin": "Jalisco, Mexico",
       "abv": "40%",
       "badge": "100% De Agave",
-      "image": "/images/patron-silver.webp",
+      "image": "https://cdn.shopify.com/s/files/1/0099/0045/8042/files/2025_bottle_silver-mjllDTu1sqOB5b.jpg?v=1770993338",
       "tastingNotes": "Handcrafted from the finest 100% Weber Blue Agave in Jalisco. Smooth roasted agave, bright citrus, and light white pepper.",
       "prices": {
-        "Gurgaon": 4800,
         "Delhi": 6200,
         "Noida": 5900,
-        "Jaipur": 6600
+        "Jaipur": 6600,
+        "Gurgaon": 4800
       }
     },
     {
-      "id": "moet-imperial",
-      "name": "Moët & Chandon Impérial Brut Champagne",
-      "brand": "Moët & Chandon",
+      "id": "paul-john-brilliance",
+      "name": "Paul John Brilliance Single Malt",
+      "brand": "Paul John",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Indian Single Malt",
+      "origin": "Goa, India",
+      "abv": "46%",
+      "badge": null,
+      "image": "https://www.theboozeoutlet.com/cdn/shop/products/medium-_750x750_cb9e9b26-1b92-46c2-9f86-7e98220b881d.png?v=1708399285",
+      "tastingNotes": "An unpeated Indian single malt from Goa.",
+      "prices": {}
+    },
+    {
+      "id": "paul-john-edited",
+      "name": "Paul John Edited Single Malt",
+      "brand": "Paul John",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Indian Single Malt",
+      "origin": "Goa, India",
+      "abv": "46%",
+      "badge": null,
+      "image": "https://d1q9atv66skeoi.cloudfront.net/image/961033245606/image_ret5pd6c995en0j5g42gd24h44/-S1920x1920-FWEBP",
+      "tastingNotes": "A Goa-made single malt with a subtle peat influence and a honeyed, cocoa-led profile.",
+      "prices": {}
+    },
+    {
+      "id": "rampur-asava",
+      "name": "Rampur Asava Indian Single Malt",
+      "brand": "Rampur",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Indian Single Malt",
+      "origin": "Uttar Pradesh, India",
+      "abv": "45%",
+      "badge": null,
+      "image": "https://cdn.prod2.whisky.fr/media/lmdw/lmdw_large/58373_14_m73459___449be742416b5351.webp",
+      "tastingNotes": "An Indian single malt matured with an Indian Cabernet Sauvignon cask finish.",
+      "prices": {}
+    },
+    {
+      "id": "rampur-dc",
+      "name": "Rampur Double Cask Single Malt",
+      "brand": "Rampur",
       "volume": "750ML",
-      "rating": 4.9,
-      "subcategory": "Wine & Champagne",
-      "origin": "Épernay, France",
-      "abv": "12%",
-      "badge": "Grand Champagne",
-      "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/af98ad9a-31fa-4afd-ac96-4be5f2b1142d/938ff3c3-dbe3-4d0d-86b6-de9fa851fdcf_1910783801.jpeg",
-      "tastingNotes": "Vibrant intensity of green apple and citrus fruit, mineral freshness, white blossoms, and blonde brioche elegance.",
+      "rating": "4.8",
+      "subcategory": "Made in India Single Malts",
+      "origin": "Uttar Pradesh, India",
+      "abv": "45%",
+      "badge": "Luxury Reserve",
+      "image": "https://cdn11.bigcommerce.com/s-0ddlsmhg83/images/stencil/original/products/2352/2576/rampur-double-cask-indian-single-malt-whisky__00405.1752495277.1280.1280__33148.1755241711.jpg?c=1",
+      "tastingNotes": "Handcrafted in the Himalayan foothills using American Bourbon barrels and European Oak Sherry casks. Tropical fruit and spiced oak.",
       "prices": {
-        "Gurgaon": 6200,
-        "Delhi": 7800,
-        "Noida": 7400,
-        "Jaipur": 8200
+        "Delhi": 7210,
+        "Noida": 6900,
+        "Jaipur": 7400,
+        "Gurgaon": 6500
       }
     },
     {
-      "id": "sula-dindori",
-      "name": "Sula Dindori Reserve Shiraz",
-      "brand": "Sula Vineyards",
+      "id": "royal-stag-barrel-select",
+      "name": "Royal Stag Barrel Select",
+      "brand": "Royal Stag",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Indian Blended Whisky",
+      "origin": "India",
+      "abv": "42.8%",
+      "badge": null,
+      "image": "https://www.bswliquor.com/cdn/shop/products/royal_stag_barrel_select_800x.png?v=1678290568",
+      "tastingNotes": "An Indian blended whisky with a barrel-led profile.",
+      "prices": {}
+    },
+    {
+      "id": "stranger-sons",
+      "name": "Stranger & Sons Indian Spirited Gin",
+      "brand": "Third Eye Distillery",
       "volume": "750ML",
-      "rating": 4.7,
-      "subcategory": "Wine & Champagne",
-      "origin": "Nashik, India",
-      "abv": "14%",
-      "badge": "Estate Reserve",
-      "image": "/images/sula-dindori.jpg",
-      "tastingNotes": "Matured in American oak barrels for 12 months. Silky red berries, mocha, vanilla bean, and smoky black pepper.",
+      "rating": "4.8",
+      "subcategory": "Craft Gin",
+      "origin": "Goa, India",
+      "abv": "42.8%",
+      "badge": "3D Citrus Peel",
+      "image": "https://www.theginguild.com/wp-content/uploads/2020/11/stranger-and-sons-indian-spirited-gin.jpg",
+      "tastingNotes": "Bold botanical chorus of Gondhoraj limes, Nagpur oranges, nimble limes, black pepper, nutmeg, and coriander seed.",
       "prices": {
-        "Gurgaon": 1150,
-        "Delhi": 1350,
-        "Noida": 1290,
-        "Jaipur": 1450
+        "Delhi": 2050,
+        "Noida": 1980,
+        "Jaipur": 2250,
+        "Gurgaon": 1650
       }
     },
     {
-      "id": "jacobs-creek-chard",
-      "name": "Jacob's Creek Classic Chardonnay",
-      "brand": "Jacob's Creek",
+      "id": "talisker-10",
+      "name": "Talisker 10 YO Single Malt",
+      "brand": "Talisker",
       "volume": "750ML",
-      "rating": 4.6,
-      "subcategory": "Wine & Champagne",
-      "origin": "South Eastern Australia",
-      "abv": "13%",
-      "badge": "Crisp Australian White",
-      "image": "/images/jacobs-creek-chard.jpg",
-      "tastingNotes": "Ripe melon and white peach flavours layered with zesty lemon curd and subtle toasted oak creaminess.",
+      "rating": "4.8",
+      "subcategory": "Single Malt",
+      "origin": "Isle of Skye, Scotland",
+      "abv": "45.8%",
+      "badge": "Maritime Peat",
+      "image": "https://www.finescottishhampers.com/image_resize/back/w1500/products/502/71PfYLlDUoL.ACSL1500.jpg",
+      "tastingNotes": "Made by the sea on the Isle of Skye. Powerful coastal sea-salt spray, cracked black pepper, and sweet orchard smoke.",
       "prices": {
-        "Gurgaon": 1250,
-        "Delhi": 1500,
-        "Noida": 1450,
-        "Jaipur": 1620
+        "Delhi": 4800,
+        "Noida": 4650,
+        "Jaipur": 5150,
+        "Gurgaon": 3900
       }
+    },
+    {
+      "id": "woodburns-contemporary",
+      "name": "Woodburns Contemporary Indian Whisky",
+      "brand": "Woodburns",
+      "volume": "700ML",
+      "rating": null,
+      "subcategory": "Indian Blended Whisky",
+      "origin": "India",
+      "abv": "42.8%",
+      "badge": null,
+      "image": "https://assets.gqindia.com/photos/61813a44191527f61d8447cd/1%3A1/w_1080%2Ch_1080%2Cc_limit/indian-whisky%20%281%29.jpg",
+      "tastingNotes": "A contemporary Indian whisky made for sipping or mixing.",
+      "prices": {}
     }
   ],
   "wines": [
+    {
+      "id": "jacobs-creek-chardonnay",
+      "name": "Jacob's Creek Classic Chardonnay",
+      "style": "White Wine",
+      "origin": "Barossa, Australia",
+      "volume": "750ML",
+      "abv": null,
+      "rating": "4.6",
+      "image": "https://cdn.metcash.media/image/upload/f_auto%2Cc_limit%2Cw_1500%2Cq_auto/igashop/images/6600933",
+      "notes": "Zesty lemon, ripe melon & creamy oak finish",
+      "prices": {
+        "Delhi": 1500,
+        "Noida": 1450,
+        "Jaipur": 1620,
+        "Gurgaon": 1250
+      }
+    },
     {
       "id": "moet-chandon-brut",
       "name": "Moët & Chandon Impérial Brut",
       "style": "Sparkling Wine",
       "origin": "Champagne, France",
       "volume": "750ML",
-      "rating": 4.9,
-      "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/af98ad9a-31fa-4afd-ac96-4be5f2b1142d/938ff3c3-dbe3-4d0d-86b6-de9fa851fdcf_1910783801.jpeg",
+      "abv": null,
+      "rating": "4.9",
+      "image": "https://bevmo.com/cdn/shop/files/57f58993-4b15-4c44-bdcd-2878e8801ff8-padded.png?v=1765396868",
       "notes": "Green apple, citrus blossom & toasted brioche",
       "prices": {
-        "Gurgaon": 6200,
         "Delhi": 7800,
         "Noida": 7400,
-        "Jaipur": 8200
+        "Jaipur": 8200,
+        "Gurgaon": 6200
       }
     },
     {
@@ -651,14 +892,15 @@
       "style": "Red Wine",
       "origin": "Nashik, India",
       "volume": "750ML",
-      "rating": 4.7,
-      "image": "/images/sula-dindori-shiraz.jpg",
+      "abv": null,
+      "rating": "4.7",
+      "image": "https://cf.shopee.sg/file/c45edb0c19bf70ea14b0d3a8a80d6183",
       "notes": "Blackberry, dark mocha & American oak spice",
       "prices": {
-        "Gurgaon": 1150,
         "Delhi": 1350,
         "Noida": 1290,
-        "Jaipur": 1450
+        "Jaipur": 1450,
+        "Gurgaon": 1150
       }
     },
     {
@@ -667,34 +909,55 @@
       "style": "Rosé Wine",
       "origin": "Provence, France",
       "volume": "750ML",
-      "rating": 4.8,
-      "image": "/images/whispering-angel.avif",
+      "abv": null,
+      "rating": "4.8",
+      "image": "https://www.costco.co.uk/medias/sys_master/images/hb0/hee/312484953751582.jpg",
       "notes": "Dry summer berries, white peach & mineral finish",
       "prices": {
-        "Gurgaon": 3400,
         "Delhi": 4100,
         "Noida": 3900,
-        "Jaipur": 4300
-      }
-    },
-    {
-      "id": "jacobs-creek-chardonnay",
-      "name": "Jacob's Creek Classic Chardonnay",
-      "style": "White Wine",
-      "origin": "Barossa, Australia",
-      "volume": "750ML",
-      "rating": 4.6,
-      "image": "/images/jacobs-creek-chardonnay.jpg",
-      "notes": "Zesty lemon, ripe melon & creamy oak finish",
-      "prices": {
-        "Gurgaon": 1250,
-        "Delhi": 1500,
-        "Noida": 1450,
-        "Jaipur": 1620
+        "Jaipur": 4300,
+        "Gurgaon": 3400
       }
     }
   ],
   "cocktails": [
+    {
+      "id": "albatross",
+      "name": "Albatross",
+      "mixologist": "Rajat Tolia",
+      "bar": "Olive Bar & Kitchen, Delhi",
+      "baseSpirit": "Indian Craft Gin & Salted Pomelo",
+      "glassware": "Stemless Wine Goblet",
+      "difficulty": "Mediterranean Spritz",
+      "image": "https://static.livcheers.com/static/icons/future_icons_images/67-olive-bar-kitchen-delhi-product-1-20260912.webp",
+      "color": "from-teal-500/20 to-amber-500/20",
+      "ingredients": [
+        "50ml Jaisalmer Indian Craft Gin",
+        "30ml Pink Pomelo & Kaffir Lime Juice",
+        "15ml Salted Honey & Thyme Syrup",
+        "Top with Moët & Chandon Impérial Brut"
+      ],
+      "story": "Designed for sun-drenched courtyard afternoons at Olive Qutub, Rajat Tolia pairs citrus-forward craft gin with crisp champagne."
+    },
+    {
+      "id": "bilvananda",
+      "name": "Bilvananda",
+      "mixologist": "Souvik Rana",
+      "bar": "CND Speakeasy",
+      "baseSpirit": "Bourbon & Wood Apple (Bael)",
+      "glassware": "Old Fashioned Tumbler",
+      "difficulty": "Indigenous Forage",
+      "image": "https://static.livcheers.com/static/icons/future_icons_images/51-cnd-speakeasy-product-2-20260912.webp",
+      "color": "from-orange-500/20 to-amber-800/20",
+      "ingredients": [
+        "60ml Maker's Mark or Jim Beam Bourbon",
+        "20ml Roasted Bael (Wood Apple) & Jaggery reduction",
+        "2 dashes Angostura Aromatic Bitters",
+        "Expressed orange peel coin"
+      ],
+      "story": "Souvik Rana celebrates forgotten Indian fruit by marrying caramel-rich Kentucky Bourbon with sacred roasted wood apple nectar."
+    },
     {
       "id": "common-thread",
       "name": "The Common Thread",
@@ -703,7 +966,7 @@
       "baseSpirit": "Sous-Vide Vetiver Gin & Dry Vermouth",
       "glassware": "Nick & Nora Glass",
       "difficulty": "Advanced Craft",
-      "image": "/images/common-thread.webp",
+      "image": "https://static.livcheers.com/static/icons/future_icons_images/52-comorin-gurgaon-product-1-20260912.webp",
       "color": "from-amber-500/20 to-emerald-600/20",
       "ingredients": [
         "60ml Vetiver-root infused Greater Than or Stranger & Sons Gin",
@@ -721,7 +984,7 @@
       "baseSpirit": "Indian Single Malt & Smoked Pineapple",
       "glassware": "Tall Collins Glass",
       "difficulty": "Signature Highball",
-      "image": "/images/hemus-highball.webp",
+      "image": "https://static.livcheers.com/static/icons/future_icons_images/59-aabbcc-product-1-20260912.webp",
       "color": "from-yellow-500/20 to-amber-700/20",
       "ingredients": [
         "50ml Indri Trini Single Malt Whisky",
@@ -732,24 +995,6 @@
       "story": "Sahil Gaur elevates the classic whisky highball by pairing tropical roasted pineapple notes with three-wood Indian single malt and smoky cardamom."
     },
     {
-      "id": "mary-me-martini",
-      "name": "Mary Me Martini",
-      "mixologist": "Rohit Jana",
-      "bar": "RED, Vasant Vihar",
-      "baseSpirit": "Clarified Tomato Vodka & Herb Oil",
-      "glassware": "Chilled Coupe",
-      "difficulty": "Molecular Clarified",
-      "image": "/images/mary-me-martini.webp",
-      "color": "from-rose-500/20 to-amber-500/20",
-      "ingredients": [
-        "60ml Grey Goose Vodka rested with sun-dried cherry tomatoes",
-        "20ml Clarified heirloom tomato & celery consommé",
-        "5ml Dry Sherry",
-        "3 drops Fresh Basil & Black Pepper oil"
-      ],
-      "story": "Rohit Jana reimagines the savory Bloody Mary into a crystal-clear, razor-sharp martini bursting with umami richness and zero heaviness."
-    },
-    {
       "id": "highland-botanist",
       "name": "The Highland Botanist",
       "mixologist": "Rishabh Mehrotra",
@@ -757,7 +1002,7 @@
       "baseSpirit": "Blended Scotch & Elderflower",
       "glassware": "Rocks Glass over Clear Ice Sphere",
       "difficulty": "Modern Classic",
-      "image": "/images/highland-botanist.webp",
+      "image": "https://static.livcheers.com/static/icons/future_icons_images/68-ophelia-delhi-product-1-20260912.webp",
       "color": "from-emerald-500/20 to-gold-500/20",
       "ingredients": [
         "50ml Chivas Regal 12 YO or Johnnie Walker Black Label",
@@ -768,40 +1013,22 @@
       "story": "Featured at Ophelia Delhi, Rishabh Mehrotra bridges rugged Scottish heather honey notes with bright Mediterranean botanicals."
     },
     {
-      "id": "bilvananda",
-      "name": "Bilvananda",
-      "mixologist": "Souvik Rana",
-      "bar": "CND Speakeasy",
-      "baseSpirit": "Bourbon & Wood Apple (Bael)",
-      "glassware": "Old Fashioned Tumbler",
-      "difficulty": "Indigenous Forage",
-      "image": "/images/bilvananda.webp",
-      "color": "from-orange-500/20 to-amber-800/20",
+      "id": "mary-me-martini",
+      "name": "Mary Me Martini",
+      "mixologist": "Rohit Jana",
+      "bar": "RED, Vasant Vihar",
+      "baseSpirit": "Clarified Tomato Vodka & Herb Oil",
+      "glassware": "Chilled Coupe",
+      "difficulty": "Molecular Clarified",
+      "image": "https://static.livcheers.com/static/icons/future_icons_images/70-red-vasant-vihar-product-1-20260912.webp",
+      "color": "from-rose-500/20 to-amber-500/20",
       "ingredients": [
-        "60ml Maker's Mark or Jim Beam Bourbon",
-        "20ml Roasted Bael (Wood Apple) & Jaggery reduction",
-        "2 dashes Angostura Aromatic Bitters",
-        "Expressed orange peel coin"
+        "60ml Grey Goose Vodka rested with sun-dried cherry tomatoes",
+        "20ml Clarified heirloom tomato & celery consommé",
+        "5ml Dry Sherry",
+        "3 drops Fresh Basil & Black Pepper oil"
       ],
-      "story": "Souvik Rana celebrates forgotten Indian fruit by marrying caramel-rich Kentucky Bourbon with sacred roasted wood apple nectar."
-    },
-    {
-      "id": "albatross",
-      "name": "Albatross",
-      "mixologist": "Rajat Tolia",
-      "bar": "Olive Bar & Kitchen, Delhi",
-      "baseSpirit": "Indian Craft Gin & Salted Pomelo",
-      "glassware": "Stemless Wine Goblet",
-      "difficulty": "Mediterranean Spritz",
-      "image": "/images/albatross.webp",
-      "color": "from-teal-500/20 to-amber-500/20",
-      "ingredients": [
-        "50ml Jaisalmer Indian Craft Gin",
-        "30ml Pink Pomelo & Kaffir Lime Juice",
-        "15ml Salted Honey & Thyme Syrup",
-        "Top with Moët & Chandon Impérial Brut"
-      ],
-      "story": "Designed for sun-drenched courtyard afternoons at Olive Qutub, Rajat Tolia pairs citrus-forward craft gin with crisp champagne."
+      "story": "Rohit Jana reimagines the savory Bloody Mary into a crystal-clear, razor-sharp martini bursting with umami richness and zero heaviness."
     }
   ]
 }
