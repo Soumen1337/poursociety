@@ -76,3 +76,19 @@ Send the request to `https://qdlohormyrumfhzdaxum.supabase.co/functions/v1/price
 ## Image and price provenance
 
 Product photos currently reference external sources until local copies are downloaded and uploaded to Supabase Storage. Some providers block hotlinking or may change URLs. The image audit script reports each source's result. The legacy price list is reference data only and is not verified as current.
+
+
+## Appearance
+
+The header includes a persistent **Light / Dark** switch. Dark mode remains the default and keeps the original charcoal, black and champagne-gold design. Light mode uses a warm ivory canvas, soft white cards, dark readable text and muted gold accents. The choice is saved in the browser under `ps-theme`.
+
+## Product image audit
+
+The project audits product photos against the **live Supabase catalogue**, not just the offline seed:
+
+1. Open GitHub → Actions → **Audit all product images** → **Run workflow**, or update `scripts/audit-product-images.mjs`.
+2. The audit checks every active product image URL, rejects non-image responses and unsafe/unknown hosts, and downloads valid photos (maximum 5 MB each) to `public/images/`.
+3. It commits `image-audit.json`, the local photos, the refreshed fallback catalogue and `supabase/updates/20261116_sync_local_product_images.sql`.
+4. Run the generated SQL in Supabase SQL Editor to map the verified local image paths into `public.products.image_url`.
+
+Only images that return a valid image response are mapped to local paths. Failed images remain listed with their reason in `image-audit.json`; they are not replaced with unrelated stock images or generated placeholders.
