@@ -1,0 +1,5 @@
+[functions.price-ingest]
+verify_jwt = true
+
+[functions.image-sync]
+verify_jwt = true
