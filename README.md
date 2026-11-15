@@ -11,8 +11,8 @@ PourSociety is a public spirits, wine, beer and cocktail discovery catalogue wit
 ## Local setup
 
 1. Install Node.js 20 or newer.
-2. Copy `.env.example` to `.env.local`.
-3. Set `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` from your own Supabase project. The publishable key is browser-safe when RLS is enabled. Never place a service-role/secret key in a `VITE_` variable.
+2. Copy `.env.example` to `.env.local` when using a different Supabase environment.
+3. Optional: set `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY`. This project has browser-safe public defaults for its current Supabase project. Never place a service-role/secret key in a `VITE_` variable.
 4. Run `npm install`, then `npm run dev`.
 5. Run `npm run build` before pushing.
 
@@ -24,18 +24,22 @@ The database migrations are in `supabase/migrations/` and catalogue data is in `
 
 The `product-images` Storage bucket is public-read and admin-write. Use the Admin dashboard to upload a replacement photo or run **Copy external photos to Supabase Storage**. That button calls the deployed `image-sync` Edge Function, which copies images from the approved source-host allowlist into your own bucket, updates product image URLs and retains the source URL in product metadata. The function reports blocked/invalid sources instead of substituting generated artwork.
 
-For local image downloads, `scripts/check-images.mjs` tests the current source URLs and writes working files into `public/images/`, then rewrites `src/catalog.seed.json`. Run it from a network-enabled machine; source hosts can block hotlinking. `scripts/upload-images-to-supabase.mjs` uploads downloaded local assets to the bucket. Set `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` only in your local shell for that one-time upload script. Never commit those values.
+For local image downloads, `scripts/check-images.mjs` tests current source URLs and writes working files into `public/images/`, then rewrites `src/catalog.seed.json`. Run it from a network-enabled machine; source hosts can block hotlinking. `scripts/upload-images-to-supabase.mjs` uploads downloaded local assets to the bucket. Set `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` only in your local shell for that one-time upload script. Never commit those values.
 
 ## Create your sole admin
 
-1. Open the deployed website and create your own account.
+1. Open the website and create your own account.
 2. Open Supabase Dashboard → SQL Editor.
-3. Copy `supabase/promote-admin.sql`, replace `YOUR_OWNER_EMAIL`, and run it.
+3. Copy `supabase/promote-admin.sql`, replace `YOUR_OWNER_EMAIL` with the exact email used for sign-up, and run it.
 4. Sign out and back in. The Admin control appears only when `profiles.role = 'admin'`. Public signups always receive the `customer` role; users cannot promote themselves. A partial unique index enforces at most one admin profile in the project.
+
+The live database currently has **zero admin accounts**, so admin-only image syncing and price editing remain locked until the owner account is promoted.
 
 ## Price data updates
 
-Manual price changes are available in the admin dashboard and are logged to `price_history`. The deployed `price-ingest` Edge Function accepts authenticated admin requests with `prices: [{ product_id, city, price }]`, plus `source_label` and optional `source_url`. It validates city and amount, and records API imports as unverified. No retailer API provider has been configured yet: automated live updates require an authorized source/API for the relevant city/state. Do not scrape retailer pages where their terms prohibit it.
+The official sources registered for the four markets are documented in [PRICE-SOURCES.md](./PRICE-SOURCES.md) and stored in the admin-only `public.price_sources` table. Current portal checks establish that each state publishes some relevant price information, but do not establish a permitted machine-readable API for automated collection. Haryana's 2025–27 excise policy gives minimum retail-price categories/pack sizes, not exact live brand-level MRP. Therefore no scheduled price importer is enabled.
+
+Manual price changes are available in the admin dashboard and are logged to `price_history`. The deployed `price-ingest` Edge Function accepts authenticated admin requests with `prices: [{ product_id, city, price }]`, plus `source_label` and optional `source_url`. It validates city and amount, and records API imports as unverified. An authorized source/API for the relevant city/state is still required for automatic updates.
 
 Example request body for an authorized feed:
 
@@ -55,10 +59,10 @@ Send the request to `https://qdlohormyrumfhzdaxum.supabase.co/functions/v1/price
 
 1. Import `Soumen1337/poursociety` in Vercel.
 2. Framework preset: Vite. Build command: `npm run build`. Output directory: `dist`.
-3. Add `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` under Project Settings → Environment Variables.
+3. The current Supabase URL and publishable key are set as safe browser defaults in `src/supabase.js`. Environment variables can override them.
 4. Deploy.
-5. In Supabase → Authentication → URL Configuration, add the Vercel production URL to Site URL / Redirect URLs.
-6. Pushes to `main` trigger deployments after GitHub/Vercel integration is enabled.
+5. In Supabase → Authentication → URL Configuration, add the production URL to Site URL / Redirect URLs.
+6. Connect the Vercel project to GitHub `main` to enable deployments on pushes. GitHub Actions separately checks every production build.
 
 ## Security
 
